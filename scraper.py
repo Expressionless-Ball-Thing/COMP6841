@@ -100,6 +100,8 @@ def scraper(url):
             #     except:
             #         print(f"TEXT: ")
 
+        print("Scraping done, you can now find the outputs in the analysis_output folder")
+
         browser.close()
         outfile.close()
         request_file.close()
