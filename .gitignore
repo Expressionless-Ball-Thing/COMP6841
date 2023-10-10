@@ -162,4 +162,4 @@ cython_debug/
 
 analysis_output/*
 
-!somefolder/.gitkeep
+!analysis_output/.gitkeep
