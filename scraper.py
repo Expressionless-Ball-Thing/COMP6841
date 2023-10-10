@@ -1,8 +1,35 @@
-from json import JSONDecodeError
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import re
 import json
+
+outfile = open(f"analysis_output/output.txt", "w")
+request_file = open(f"analysis_output/request.txt", "w")
+response_file = open(f"analysis_output/response.txt", "w") 
+request_file.write("\n-------------------------------------REQUESTS---------------------------------------\n")     
+response_file.write("\n-------------------------------------RESPONESES---------------------------------------\n") 
+
+seen = set()
+
+def handle_request(request):
+    try:
+        request_file.write(json.dumps({
+            "METHOD": request.method,
+            "URL": request.url,
+            "HEADERS": request.all_headers()
+        }, indent=4, sort_keys=True))
+        request_file.write("\n")
+        
+        response = request.response()
+        response_file.write(json.dumps({
+            "URL" : response.url,
+            "HEADERS": response.all_headers(),
+            "SECURITY": {key: value for key, value in response.security_details().items() if (key in ["issuer", "protocol", "subjectName"])} if response.security_details() is not None else None,
+            "SERVER": response.server_addr()
+        }, indent=4, sort_keys=True))
+        response_file.write("\n")
+    except:
+        pass
 
 def scraper(url):
     with sync_playwright() as playwright:
@@ -13,14 +40,13 @@ def scraper(url):
         """ 
         Getting the items
         """
-        
+
+  
+               
         # Subscribe to "request" and "response" events.
         
-        requests = []
-        responses = []
-        
-        page.on("request", lambda request: requests.append(request) if request not in requests else request)
-        page.on("response", lambda response: responses.append(response) if response not in responses else response)
+        page.on("request", handle_request)
+        # page.on("response", handle_response)
         page.goto(url)
         
         # Use Beautiful to parse down all of the html
@@ -40,9 +66,7 @@ def scraper(url):
         Listing them out
         """
 
-        outfile = open(f"analysis_output/output.txt", "w")
-        request_file = open(f"analysis_output/request.txt", "w")
-        response_file = open(f"analysis_output/response.txt", "w")
+
 
         # # Scanning the scripts for their source and id tag
         outfile.write("\n-------------------------------------SCRIPT TAG----------------------------------------\n")
@@ -69,40 +93,17 @@ def scraper(url):
                         
             outfile.write(json.dumps(link_json, indent=4, sort_keys=True))
             outfile.write("\n")
-
-        request_file.write("\n-------------------------------------REQUESTS---------------------------------------\n")
-        for request in requests:
-            request_file.write(json.dumps({
-                "METHOD": request.method,
-                "URL": request.url,
-                "HEADERS": request.headers
-            }, indent=4, sort_keys=True))
-            request_file.write("\n")
-        
-        thing = {}
-        
-        
-        response_file.write("\n-------------------------------------RESPONESES---------------------------------------\n")
-        seen = set()
-        for response in [seen.add(d.url) or d for d in responses if d.url not in seen]:
-            response_file.write(json.dumps({
-                "URL" : response.url,
-                "HEADERS": response.headers,
-                "SECURITY": {key: value for key, value in response.security_details().items() if (key in ["issuer", "protocol", "subjectName"])} if response.security_details() is not None else None,
-                "SERVER": response.server_addr()
-            }, indent=4, sort_keys=True))
-            response_file.write("\n")
-            # try:
-            #     print(f"TEXT: {response.json()}")
-            # except:
-            #     try:
-            #         print(f"TEXT: {response.text()}")
-            #     except:
-            #         print(f"TEXT: ")
+            
+        # outfile.write("\n-------------------------------------BODY---------------------------------------\n")
+        # print(html.find_all('body'))      
 
         print("Scraping done, you can now find the outputs in the analysis_output folder")
 
-        browser.close()
+        try:
+            page.close()
+            browser.close()
+        except:
+            pass
         outfile.close()
         request_file.close()
         response_file.close()

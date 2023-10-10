@@ -7,7 +7,7 @@ def cli():
     pass
 
 @cli.command(help='Analyze the target URL')
-@click.argument('url')
+@click.option('-u', '--url', 'url', type=str, required=True)
 def analyze(url):
     scraper(url)
 
