@@ -1,0 +1,3177 @@
+
+-------------------------------------REQUESTS---------------------------------------
+{
+    "HEADERS": {
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://frase.io/"
+}
+{
+    "HEADERS": {
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-includes/css/dist/block-library/style.min.css?ver=6.3.1"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/plugins/easy-table-of-contents/vendor/icomoon/style.min.css?ver=2.0.17"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=2.0.17"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/themes/kadence/assets/css/global.min.css?ver=1.0.30"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/themes/kadence/assets/css/header.min.css?ver=1.0.30"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/themes/kadence/assets/css/content.min.css?ver=1.0.30"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/themes/kadence/assets/css/footer.min.css?ver=1.0.30"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/plugins/kadence-blocks/dist/blocks/row.style.build.css?ver=2.1.7"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/plugins/kadence-blocks/dist/blocks/btn.style.build.css?ver=2.1.7"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/plugins/kadence-blocks/dist/blocks/tabs.style.build.css?ver=2.1.7"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/plugins/kadence-blocks/dist/blocks/testimonials.style.build.css?ver=2.1.7"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-includes/js/jquery/jquery.min.js?ver=3.7.0"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://fonts.googleapis.com/css?family=Source%20Sans%20Pro:regular,700%7CMontserrat:700%7CPoppins:600%7CRoboto:500&subset=latin&display=swap"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2020/11/cropped-frase-logo-white.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2023/05/SEO-Research-and-AI-combined7.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2021/05/WhiteLogo_Digitas-300x151.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2021/05/WhiteLogo_ptc-300x151.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hs-scripts.com/6359064.js?integration=WordPress"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/themes/kadence/assets/js/navigation.min.js?ver=1.0.30"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/plugins/kadence-blocks/dist/kt-tabs-min.js?ver=2.1.7"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "blob:https://www.frase.io/3aab78a9-ab98-4e70-b1c1-8e91201cd892"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.googletagmanager.com/gtm.js?id=GTM-PGSRVKT"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.loom.com/embed/c62a118138b6492295d2d7898271ef85"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.loom.com/embed/fcc92bd1ffd84b0e90479c016fc9a910"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.loom.com/embed/2a596c9b681e491188d66b0c213f31aa"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.loom.com/embed/423e652da8124cd393b1802af105f936"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2019/06/bg.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://wordpress-486734-1630132.cloudwaysapps.com/wp-content/uploads/2020/11/circle_bg-front.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2020/12/1595193703140-150x150.jpeg"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2020/11/KevinIndig-20160425-027-150x150.jpg"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.frase.io",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.frase.io",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.frase.io",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.frase.io",
+        "referer": "https://fonts.googleapis.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2021/05/WhiteLogo_Coursera-300x151.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2021/05/WhiteLogo_TalkSpace-300x151.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2021/05/WhiteLogo_Markle-300x151.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-content/uploads/2021/05/WhiteLogo_CareerKarma-300x152.png"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/wp-includes/js/wp-emoji-release.min.js?ver=6.3.1"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.frase.io/cdn-cgi/challenge-platform/h/g/scripts/jsd/dffb14d6/main.js"
+}
+{
+    "HEADERS": {
+        "content-type": "application/json",
+        "referer": "",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.frase.io/cdn-cgi/challenge-platform/h/g/jsd/r/813c28a778ada864"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hsadspixel.net/fb.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hs-banner.com/v2/6359064/banner.js"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.frase.io",
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hubspotfeedback.com/feedbackweb-new.js"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.frase.io",
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hsleadflows.net/leadflows.js"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.frase.io",
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hubspot.com/web-interactives-embed.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.usemessages.com/conversations-embed.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hs-analytics.net/analytics/1696912500000/6359064.js"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.frase.io",
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hscollectedforms.net/collectedforms.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/794600763/?random=1696912546766&cv=11&fst=1696912546766&bg=ffffff&guid=ON&async=1&gtm=45He3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&hn=www.googleadservices.com&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&auid=370014504.1696912547&uaa=x86&uab=64&uafvl=HeadlessChrome%3B117.0.5938.62%7CNot%253BA%253DBrand%3B8.0.0.0%7CChromium%3B117.0.5938.62&uamb=0&uap=Windows&uapv=14.0.0&uaw=0&rfmt=3&fmt=4"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hs-scripts.com/6359064.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.googleoptimize.com/optimize.js?id=OPT-KGX8674"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://connect.facebook.net/en_US/fbevents.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.firstpromoter.com/fpr.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://public.profitwell.com/js/profitwell.js?auth=a7521f64f99c57addcbe3cd66555b6f3"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.googletagmanager.com/gtag/js?id=AW-794600763"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://static.hotjar.com/c/hotjar-1685675.js?sv=6"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.googletagmanager.com/gtag/js?id=G-CS88GGEJWQ"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/css/embed-video-fresh-fdd8ac4ff4db3dd3abba.css"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/0runtime-e678caf83ebaa2a709d0.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/embed-video-fresh-5cf0c1cd9911b65373cd.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/lens-15ccb8ba6d57b34dde68.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-061dedfc-2c54559dbc013a3aabed.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-142f297f-ccec628a57158db9bde4.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-28783526-f5a2cebbd26d25a0db30.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-296c93f8-ae739f7ee10a84331ce7.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-35bda9aa-c7421581d613e742e3df.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-3e25dbdc-4f93ebc19890903b8394.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-4c3bcec0-f17ce3b983607c8bf68a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-5603c60f-562a798a41cf31e8f1f5.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-58921a15-cca9144415e40a0d92e3.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-5c7c8bfa-dacd89fd815f526ffa88.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-6575d636-c154b4f04cc0b050c629.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-6f12e44d-e95fa4afcb168b99d179.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-72e1f408-f1ecd5efd66d432059e2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-83e217f0-daef6da3a8dc3adaa2d1.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-8ffe3826-9f4b4adb30ed32d615d3.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-9499de1a-bde99a8740d390625053.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-9ebd23ae-2f591f712ea860a97e1f.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-a5b4d3c9-6ccc921124ecc325ac5a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ab28add5-23e468279fca3f9d7fd0.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-bd97967b-570dd531abd165f9348a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-be5e06f6-aa2998357db416b6c20e.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-c2538b26-2e8128879a74a79751c4.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-d0ec3b80-e1c32dfdea97058c8492.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ea2674bd-3b5dd82ae0ec7199dab2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-eb977c6f-7980ca44ca30b7dd140e.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ee7923f1-508d87469340621d926b.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ee9748a7-82a61372ef658a9adae1.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-fc7032e9-156aaa0b663c3adcdc1a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ff5ce085-2f6c347aa0c1c23462db.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-hubspot-messages-uri": "https://www.frase.io/"
+    },
+    "METHOD": "GET",
+    "URL": "https://api.hubspot.com/livechat-public/v1/message/public?portalId=6359064&conversations-embed=static-1.14347&mobile=false&messagesUtk=41ad3794298e4b12b4c4b3bc099a3aef&traceId=41ad3794298e4b12b4c4b3bc099a3aef"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=6359064&currentUrl=https%3A%2F%2Fwww.frase.io%2F"
+}
+{
+    "HEADERS": {
+        "accept": "application/json, text/plain, */*",
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://forms.hscollectedforms.net/collected-forms/v1/config/json?portalId=6359064&utk="
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://connect.facebook.net/signals/config/1159562384529617?v=2.9.132&r=stable&domain=www.frase.io"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/css/embed-video-fresh-fdd8ac4ff4db3dd3abba.css"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/0runtime-e678caf83ebaa2a709d0.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/embed-video-fresh-5cf0c1cd9911b65373cd.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/lens-15ccb8ba6d57b34dde68.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-061dedfc-2c54559dbc013a3aabed.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-142f297f-ccec628a57158db9bde4.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-28783526-f5a2cebbd26d25a0db30.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-296c93f8-ae739f7ee10a84331ce7.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-35bda9aa-c7421581d613e742e3df.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-3e25dbdc-4f93ebc19890903b8394.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-4c3bcec0-f17ce3b983607c8bf68a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-5603c60f-562a798a41cf31e8f1f5.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-58921a15-cca9144415e40a0d92e3.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-5c7c8bfa-dacd89fd815f526ffa88.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-6575d636-c154b4f04cc0b050c629.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-6f12e44d-e95fa4afcb168b99d179.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-72e1f408-f1ecd5efd66d432059e2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-83e217f0-daef6da3a8dc3adaa2d1.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-8ffe3826-9f4b4adb30ed32d615d3.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-9499de1a-bde99a8740d390625053.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-9ebd23ae-2f591f712ea860a97e1f.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-a5b4d3c9-6ccc921124ecc325ac5a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ab28add5-23e468279fca3f9d7fd0.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-bd97967b-570dd531abd165f9348a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-be5e06f6-aa2998357db416b6c20e.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-c2538b26-2e8128879a74a79751c4.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-d0ec3b80-e1c32dfdea97058c8492.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ea2674bd-3b5dd82ae0ec7199dab2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-eb977c6f-7980ca44ca30b7dd140e.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ee7923f1-508d87469340621d926b.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ee9748a7-82a61372ef658a9adae1.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-fc7032e9-156aaa0b663c3adcdc1a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ff5ce085-2f6c347aa0c1c23462db.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.facebook.com/tr/?id=1159562384529617&ev=PageView&dl=https%3A%2F%2Fwww.frase.io%2F&rl=&if=false&ts=1696912547025&sw=1280&sh=720&v=2.9.132&r=stable&ec=0&o=158&fbp=fb.1.1696912547023.1889152203&cs_est=true&ler=empty&it=1696912546934&coo=false&exp=a0&rqm=GET"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://api.hubapi.com/hs-script-loader-public/v1/config/pixels-and-events/json?portalId=6359064"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/css/embed-video-fresh-fdd8ac4ff4db3dd3abba.css"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/0runtime-e678caf83ebaa2a709d0.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/embed-video-fresh-5cf0c1cd9911b65373cd.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/lens-15ccb8ba6d57b34dde68.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-061dedfc-2c54559dbc013a3aabed.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-142f297f-ccec628a57158db9bde4.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-28783526-f5a2cebbd26d25a0db30.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-296c93f8-ae739f7ee10a84331ce7.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-35bda9aa-c7421581d613e742e3df.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-3e25dbdc-4f93ebc19890903b8394.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-4c3bcec0-f17ce3b983607c8bf68a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-5603c60f-562a798a41cf31e8f1f5.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-58921a15-cca9144415e40a0d92e3.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-5c7c8bfa-dacd89fd815f526ffa88.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-6575d636-c154b4f04cc0b050c629.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-6f12e44d-e95fa4afcb168b99d179.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-72e1f408-f1ecd5efd66d432059e2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-83e217f0-daef6da3a8dc3adaa2d1.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-8ffe3826-9f4b4adb30ed32d615d3.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-9499de1a-bde99a8740d390625053.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-9ebd23ae-2f591f712ea860a97e1f.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-a5b4d3c9-6ccc921124ecc325ac5a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ab28add5-23e468279fca3f9d7fd0.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-bd97967b-570dd531abd165f9348a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-be5e06f6-aa2998357db416b6c20e.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-c2538b26-2e8128879a74a79751c4.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-d0ec3b80-e1c32dfdea97058c8492.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ea2674bd-3b5dd82ae0ec7199dab2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-eb977c6f-7980ca44ca30b7dd140e.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ee7923f1-508d87469340621d926b.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ee9748a7-82a61372ef658a9adae1.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-fc7032e9-156aaa0b663c3adcdc1a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ff5ce085-2f6c347aa0c1c23462db.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://js.hsforms.net/forms/v2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/css/embed-video-fresh-fdd8ac4ff4db3dd3abba.css"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/0runtime-e678caf83ebaa2a709d0.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/embed-video-fresh-5cf0c1cd9911b65373cd.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/lens-15ccb8ba6d57b34dde68.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-061dedfc-2c54559dbc013a3aabed.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-142f297f-ccec628a57158db9bde4.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-28783526-f5a2cebbd26d25a0db30.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-296c93f8-ae739f7ee10a84331ce7.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-35bda9aa-c7421581d613e742e3df.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-3e25dbdc-4f93ebc19890903b8394.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-4c3bcec0-f17ce3b983607c8bf68a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-5603c60f-562a798a41cf31e8f1f5.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-58921a15-cca9144415e40a0d92e3.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-5c7c8bfa-dacd89fd815f526ffa88.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-6575d636-c154b4f04cc0b050c629.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-6f12e44d-e95fa4afcb168b99d179.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-72e1f408-f1ecd5efd66d432059e2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-83e217f0-daef6da3a8dc3adaa2d1.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-8ffe3826-9f4b4adb30ed32d615d3.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-9499de1a-bde99a8740d390625053.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-9ebd23ae-2f591f712ea860a97e1f.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-a5b4d3c9-6ccc921124ecc325ac5a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ab28add5-23e468279fca3f9d7fd0.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-bd97967b-570dd531abd165f9348a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-be5e06f6-aa2998357db416b6c20e.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-c2538b26-2e8128879a74a79751c4.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-d0ec3b80-e1c32dfdea97058c8492.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ea2674bd-3b5dd82ae0ec7199dab2.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-eb977c6f-7980ca44ca30b7dd140e.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ee7923f1-508d87469340621d926b.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ee9748a7-82a61372ef658a9adae1.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-fc7032e9-156aaa0b663c3adcdc1a.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/vendor-ff5ce085-2f6c347aa0c1c23462db.js"
+}
+{
+    "HEADERS": {
+        "content-type": "text/plain;charset=UTF-8",
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "POST",
+    "URL": "https://o398470.ingest.sentry.io/api/5257803/envelope/?sentry_key=44839bac2d7547769e214445b25f43d9&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.73.0"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/LoadSlackConnect-64144b53ea48a812301c.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/emojiUtil-6ee334f07c59ca484e4d.js"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/img/installed.jpg"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/sessions/thumbnails/fcc92bd1ffd84b0e90479c016fc9a910-00001.jpg"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.google.com/pagead/1p-user-list/794600763/?random=1696912546766&cv=11&fst=1696910400000&bg=ffffff&guid=ON&async=1&gtm=45He3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&fmt=3&is_vtc=1&random=972267921&rmt_tld=0&ipr=y"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.google.com.au/pagead/1p-user-list/794600763/?random=1696912546766&cv=11&fst=1696910400000&bg=ffffff&guid=ON&async=1&gtm=45He3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&fmt=3&is_vtc=1&random=972267921&rmt_tld=1&ipr=y"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/794600763/?random=1696912547583&cv=11&fst=1696912547583&bg=ffffff&guid=ON&async=1&gtm=45be3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&hn=www.googleadservices.com&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&auid=370014504.1696912547&uaa=x86&uab=64&uafvl=HeadlessChrome%3B117.0.5938.62%7CNot%253BA%253DBrand%3B8.0.0.0%7CChromium%3B117.0.5938.62&uamb=0&uap=Windows&uapv=14.0.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.googletagmanager.com/gtag/js?id=UA-83808957-4&l=dataLayer&cx=c"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.googletagmanager.com/gtag/js?id=G-SS7QQNEYYL&l=dataLayer&cx=c"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.google-analytics.com/g/collect?v=2&tid=G-CS88GGEJWQ&gtm=45je3a40&_p=1834460013&cid=1320912607.1696912548&ul=en-gb&sr=1280x720&ir=1&uaa=x86&uab=64&uafvl=HeadlessChrome%3B117.0.5938.62%7CNot%253BA%253DBrand%3B8.0.0.0%7CChromium%3B117.0.5938.62&uamb=0&uam=&uap=Windows&uapv=14.0.0&uaw=0&_eu=EA&_s=1&sid=1696912547&sct=1&seg=0&dl=https%3A%2F%2Fwww.frase.io%2F&dt=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1"
+}
+{
+    "HEADERS": {
+        "content-type": "text/plain;charset=UTF-8",
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "POST",
+    "URL": "https://o398470.ingest.sentry.io/api/5257803/envelope/?sentry_key=44839bac2d7547769e214445b25f43d9&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.73.0"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/img/installed.jpg"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/LoadSlackConnect-64144b53ea48a812301c.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/emojiUtil-6ee334f07c59ca484e4d.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/sessions/thumbnails/423e652da8124cd393b1802af105f936-00001.jpg"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/794600763/?random=1696912547772&cv=11&fst=1696912547772&bg=ffffff&guid=ON&async=1&gtm=45be3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&hn=www.googleadservices.com&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&did=dZTQ1Zm&gdid=dZTQ1Zm&auid=370014504.1696912547&uaa=x86&uab=64&uafvl=HeadlessChrome%3B117.0.5938.62%7CNot%253BA%253DBrand%3B8.0.0.0%7CChromium%3B117.0.5938.62&uamb=0&uap=Windows&uapv=14.0.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4"
+}
+{
+    "HEADERS": {
+        "accept-encoding": "identity;q=1, *;q=0",
+        "range": "bytes=0-",
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/sessions/thumbnails/fcc92bd1ffd84b0e90479c016fc9a910-00001.mp4"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://evs.sgmt.loom.com/yhPeelcEJD/eejxbDiFfK.min.js"
+}
+{
+    "HEADERS": {
+        "accept": "*/*",
+        "apollographql-client-name": "web",
+        "apollographql-client-version": "708a3da",
+        "content-type": "application/json",
+        "referer": "https://www.loom.com/embed/fcc92bd1ffd84b0e90479c016fc9a910",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.loom.com/graphql"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://perf-na1.hsforms.com/embed/v3/counters.gif?key=config-loaded-success&value=1"
+}
+{
+    "HEADERS": {
+        "content-type": "text/plain;charset=UTF-8",
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "POST",
+    "URL": "https://o398470.ingest.sentry.io/api/5257803/envelope/?sentry_key=44839bac2d7547769e214445b25f43d9&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.73.0"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/img/installed.jpg"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/LoadSlackConnect-64144b53ea48a812301c.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/emojiUtil-6ee334f07c59ca484e4d.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/sessions/thumbnails/c62a118138b6492295d2d7898271ef85-00001.jpg"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.loom.com",
+        "referer": "https://cdn.loom.com/assets/css/embed-video-fresh-fdd8ac4ff4db3dd3abba.css",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-5f7f3d61a321e3838310.woff2"
+}
+{
+    "HEADERS": {
+        "accept-encoding": "identity;q=1, *;q=0",
+        "range": "bytes=0-",
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/sessions/thumbnails/423e652da8124cd393b1802af105f936-00001.mp4"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://evs.sgmt.loom.com/yhPeelcEJD/eejxbDiFfK.min.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/embed/fcc92bd1ffd84b0e90479c016fc9a910",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.loom.com/v1/users/feature_flag/bulk?flags=experiment-embed-player-redesign,experiment-auto-eovn-view-run-two,experiment-embed-player-redesign,rollout-session-sync-token-promotion&hash=40c1fa52-4418-4b1a-873a-bdd69d973c21&extraProperties={%22client%22:%22website%22}"
+}
+{
+    "HEADERS": {
+        "accept": "*/*",
+        "apollographql-client-name": "web",
+        "apollographql-client-version": "708a3da",
+        "content-type": "application/json",
+        "referer": "https://www.loom.com/embed/423e652da8124cd393b1802af105f936",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.loom.com/graphql"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "blob:https://www.loom.com/68c67282-7900-4e6b-96d3-8a62fcebe70c"
+}
+{
+    "HEADERS": {
+        "accept-encoding": "identity;q=1, *;q=0",
+        "range": "bytes=0-",
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/sessions/thumbnails/c62a118138b6492295d2d7898271ef85-00001.mp4"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://evs.sgmt.loom.com/yhPeelcEJD/eejxbDiFfK.min.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/embed/423e652da8124cd393b1802af105f936",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.loom.com/v1/users/feature_flag/bulk?flags=experiment-embed-player-redesign,experiment-auto-eovn-view-run-two,experiment-embed-player-redesign,rollout-session-sync-token-promotion&hash=40c1fa52-4418-4b1a-873a-bdd69d973c21&extraProperties={%22client%22:%22website%22}"
+}
+{
+    "HEADERS": {
+        "accept": "*/*",
+        "apollographql-client-name": "web",
+        "apollographql-client-version": "708a3da",
+        "content-type": "application/json",
+        "referer": "https://www.loom.com/embed/c62a118138b6492295d2d7898271ef85",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.loom.com/graphql"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "blob:https://www.loom.com/aefaf900-e566-40e9-bcba-9017c6e95c87"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "blob:https://www.loom.com/1f7e76c9-9346-4dd2-89ae-9a5077db79e5"
+}
+{
+    "HEADERS": {
+        "content-type": "text/plain;charset=UTF-8",
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "POST",
+    "URL": "https://o398470.ingest.sentry.io/api/5257803/envelope/?sentry_key=44839bac2d7547769e214445b25f43d9&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.73.0"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/LoadSlackConnect-64144b53ea48a812301c.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/js/emojiUtil-6ee334f07c59ca484e4d.js"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/img/installed.jpg"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/sessions/thumbnails/2a596c9b681e491188d66b0c213f31aa-00001.jpg"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.google.com/pagead/1p-user-list/794600763/?random=1696912547583&cv=11&fst=1696910400000&bg=ffffff&guid=ON&async=1&gtm=45be3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&data=event%3Dgtag.config&fmt=3&is_vtc=1&random=3705222456&rmt_tld=0&ipr=y"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.google.com.au/pagead/1p-user-list/794600763/?random=1696912547583&cv=11&fst=1696910400000&bg=ffffff&guid=ON&async=1&gtm=45be3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&data=event%3Dgtag.config&fmt=3&is_vtc=1&random=3705222456&rmt_tld=1&ipr=y"
+}
+{
+    "HEADERS": {
+        "accept-encoding": "identity;q=1, *;q=0",
+        "range": "bytes=0-",
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/sessions/thumbnails/2a596c9b681e491188d66b0c213f31aa-00001.mp4"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://evs.sgmt.loom.com/yhPeelcEJD/eejxbDiFfK.min.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/embed/c62a118138b6492295d2d7898271ef85",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.loom.com/v1/users/feature_flag/bulk?flags=experiment-embed-player-redesign,experiment-auto-eovn-view-run-two,experiment-embed-player-redesign,rollout-session-sync-token-promotion&hash=40c1fa52-4418-4b1a-873a-bdd69d973c21&extraProperties={%22client%22:%22website%22}"
+}
+{
+    "HEADERS": {
+        "accept": "*/*",
+        "apollographql-client-name": "web",
+        "apollographql-client-version": "708a3da",
+        "content-type": "application/json",
+        "referer": "https://www.loom.com/embed/2a596c9b681e491188d66b0c213f31aa",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.loom.com/graphql"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.google.com/pagead/1p-user-list/794600763/?random=1696912547772&cv=11&fst=1696910400000&bg=ffffff&guid=ON&async=1&gtm=45be3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&data=event%3Dgtag.config&fmt=3&is_vtc=1&random=531807477&rmt_tld=0&ipr=y"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.google.com.au/pagead/1p-user-list/794600763/?random=1696912547772&cv=11&fst=1696910400000&bg=ffffff&guid=ON&async=1&gtm=45be3a40&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.frase.io%2F&frm=0&tiba=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&data=event%3Dgtag.config&fmt=3&is_vtc=1&random=531807477&rmt_tld=1&ipr=y"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.google-analytics.com/analytics.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.google-analytics.com/g/collect?v=2&tid=G-SS7QQNEYYL&gtm=45je3a40&_p=1834460013&cid=1320912607.1696912548&ul=en-gb&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B117.0.5938.62%7CNot%253BA%253DBrand%3B8.0.0.0%7CChromium%3B117.0.5938.62&uamb=0&uam=&uap=Windows&uapv=14.0.0&uaw=0&_s=1&sid=1696912548&sct=1&seg=0&dl=https%3A%2F%2Fwww.frase.io%2F&dt=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&en=page_view&_fv=1&_ss=1&_ee=1"
+}
+{
+    "HEADERS": {
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "blob:https://www.loom.com/0c100677-94f9-4432-8fb1-26671262cae0"
+}
+{
+    "HEADERS": {
+        "accept": "*/*",
+        "apollographql-client-name": "web",
+        "apollographql-client-version": "708a3da",
+        "content-type": "application/json",
+        "referer": "https://www.loom.com/embed/fcc92bd1ffd84b0e90479c016fc9a910",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.loom.com/graphql"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/v1/projects/rggRFsCK29LOKVGyTLpt9xoXVhNNXaP6/settings"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/v1/projects/rggRFsCK29LOKVGyTLpt9xoXVhNNXaP6/settings"
+}
+{
+    "HEADERS": {
+        "accept": "*/*",
+        "apollographql-client-name": "web",
+        "apollographql-client-version": "708a3da",
+        "content-type": "application/json",
+        "referer": "https://www.loom.com/embed/423e652da8124cd393b1802af105f936",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.loom.com/graphql"
+}
+{
+    "HEADERS": {
+        "accept": "*/*",
+        "apollographql-client-name": "web",
+        "apollographql-client-version": "708a3da",
+        "content-type": "application/json",
+        "referer": "https://www.loom.com/embed/c62a118138b6492295d2d7898271ef85",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.loom.com/graphql"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/embed/2a596c9b681e491188d66b0c213f31aa",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "GET",
+    "URL": "https://www.loom.com/v1/users/feature_flag/bulk?flags=experiment-embed-player-redesign,experiment-auto-eovn-view-run-two,experiment-embed-player-redesign,rollout-session-sync-token-promotion&hash=40c1fa52-4418-4b1a-873a-bdd69d973c21&extraProperties={%22client%22:%22website%22}"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/v1/projects/rggRFsCK29LOKVGyTLpt9xoXVhNNXaP6/settings"
+}
+{
+    "HEADERS": {
+        "referer": ""
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-5f7f3d61a321e3838310.woff2"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/v1/projects/rggRFsCK29LOKVGyTLpt9xoXVhNNXaP6/settings"
+}
+{
+    "HEADERS": {
+        "content-type": "text/plain",
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1834460013&t=pageview&_s=1&dl=https%3A%2F%2Fwww.frase.io%2F&ul=en-gb&de=UTF-8&dt=Frase%20-%20Best%20SEO%20Content%20Optimization%20Tool%20%26%20AI%20Writer&sd=24-bit&sr=1280x720&vp=1280x720&je=0&_u=YADAAUABAAAAACAAI~&jid=229696193&gjid=190906168&cid=1320912607.1696912548&tid=UA-83808957-4&_gid=762740389.1696912548&_r=1&gtm=457e3a40&jsscut=1&z=1354212311"
+}
+{
+    "HEADERS": {
+        "referer": ""
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-5f7f3d61a321e3838310.woff2"
+}
+{
+    "HEADERS": {
+        "accept": "*/*",
+        "apollographql-client-name": "web",
+        "apollographql-client-version": "708a3da",
+        "content-type": "application/json",
+        "referer": "https://www.loom.com/embed/2a596c9b681e491188d66b0c213f31aa",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36",
+        "x-loom-request-source": "loom_web_708a3da"
+    },
+    "METHOD": "POST",
+    "URL": "https://www.loom.com/graphql"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/analytics-next/bundles/870.bundle.6e2976b75e60ab2b2bf8.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/analytics-next/bundles/tsub-middleware.bundle.77315eced46c5ae4c052.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://app.hubspot.com/feedback-web-fetcher"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://track.hubspot.com/__ptq.gif?k=1&sd=1280x720&cd=24-bit&cs=UTF-8&ln=en-gb&bfp=1445019978&v=1.1&a=6359064&ct=standard-page&rcu=https%3A%2F%2Fwww.frase.io%2F&pu=https%3A%2F%2Fwww.frase.io%2F&t=Frase+-+Best+SEO+Content+Optimization+Tool+%26+AI+Writer&cts=1696912548504&vi=fcb2e46e0af446db184c177a59d9dd29&nc=true&u=76324618.fcb2e46e0af446db184c177a59d9dd29.1696912548500.1696912548500.1696912548500.1&b=76324618.1.1696912548501&cc=15"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.frase.io/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://forms.hubspot.com/lead-flows-config/v1/config/json?portalId=6359064&utk=fcb2e46e0af446db184c177a59d9dd29&__hstc=76324618.fcb2e46e0af446db184c177a59d9dd29.1696912548500.1696912548500.1696912548500.1&__hssc=76324618.1.1696912548501&currentUrl=https%3A%2F%2Fwww.frase.io%2F"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/analytics-next/bundles/870.bundle.6e2976b75e60ab2b2bf8.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/analytics-next/bundles/tsub-middleware.bundle.77315eced46c5ae4c052.js"
+}
+{
+    "HEADERS": {
+        "referer": ""
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-5f7f3d61a321e3838310.woff2"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/analytics-next/bundles/870.bundle.6e2976b75e60ab2b2bf8.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/analytics-next/bundles/tsub-middleware.bundle.77315eced46c5ae4c052.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/analytics-next/bundles/870.bundle.6e2976b75e60ab2b2bf8.js"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.segment.com/analytics-next/bundles/tsub-middleware.bundle.77315eced46c5ae4c052.js"
+}
+{
+    "HEADERS": {
+        "referer": ""
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-5f7f3d61a321e3838310.woff2"
+}
+{
+    "HEADERS": {
+        "origin": "https://www.loom.com",
+        "referer": "https://cdn.loom.com/assets/css/embed-video-fresh-fdd8ac4ff4db3dd3abba.css",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-7635c1bc788a9c68bf95.woff2"
+}
+{
+    "HEADERS": {
+        "referer": "https://www.loom.com/",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/117.0.5938.62 Safari/537.36"
+    },
+    "METHOD": "GET",
+    "URL": "https://cdn.loom.com/avatars/202838_edeebe31697b4d41b61aff1cc536c28d_192.jpg"
+}
