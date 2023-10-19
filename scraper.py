@@ -119,10 +119,10 @@ def process_tags(scripts, meta_tags, link_tags):
                         if tech_name not in tech_found:
                                     
                             tech_found[tech_name] = {
-                                        "found in": [f"<script> tag with src attribute {script.attrs.get('src')} matched pattern {regex_version_pair["regex"]}"]
+                                        "found in": [f"<script> tag with src attribute {script.attrs.get('src')} matched pattern {regex_version_pair['regex']}"]
                                     }
                         else:
-                            tech_found[tech_name]["found in"].append(f"<script> tag with src attribute {script.attrs.get('src')} matched pattern {regex_version_pair["regex"]}") 
+                            tech_found[tech_name]["found in"].append(f"<script> tag with src attribute {script.attrs.get('src')} matched pattern {regex_version_pair['regex']}") 
     
         if "meta" in object:
             metas: dict = object["meta"]

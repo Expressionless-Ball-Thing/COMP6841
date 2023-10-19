@@ -10,7 +10,6 @@ def cli():
 @click.option('-u', '--url', 'url', type=str, required=True)
 @click.option('-d', '--debug', 'debug', default=False, is_flag=True, help="prints out all requets, reponses, etc")
 def analyze(url, debug):
-    print(debug)
     scraper(url, debug)
 
 
