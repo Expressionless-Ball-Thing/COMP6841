@@ -33,10 +33,10 @@
       }
     ],
     "headers": {
-      "<Header key>": "Regex for header value." | {
+      "<Header key>": [{
         "regex": "Regex for header value",
         "version" : "regex for which capture group contains the version"
-        }
+        }]
     },
     "meta": {
       "attribute name": [
