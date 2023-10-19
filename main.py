@@ -1,4 +1,3 @@
-import re
 import click
 from scraper import scraper
 
@@ -6,10 +5,13 @@ from scraper import scraper
 def cli():
     pass
 
+# TODO: Do a regex check here to be sure that the url passed in is actually a url
 @cli.command(help='Analyze the target URL')
 @click.option('-u', '--url', 'url', type=str, required=True)
-def analyze(url):
-    scraper(url)
+@click.option('-d', '--debug', 'debug', default=False, is_flag=True, help="prints out all requets, reponses, etc")
+def analyze(url, debug):
+    print(debug)
+    scraper(url, debug)
 
 
 if __name__ == "__main__":
