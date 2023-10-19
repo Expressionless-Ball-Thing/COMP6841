@@ -10,7 +10,7 @@ seen_url_responses = set()
 tech_object = json.load(open("technologies.json", "r"))
 tech_found = {}
 
-server_security = {}
+server_security = []
 
 cant_make_sense = []
 
@@ -78,6 +78,15 @@ def handle_response(response, response_file: TextIOWrapper, debug):
                                     }
                                 else:
                                     tech_found[tech_name]["found in"].append(f"Header in response to {response.url}") 
+        
+        server_stuff = {
+            "SECURITY": {key: value for key, value in response.security_details().items() if key not in ["validFrom" , "validTo"]},
+            "SERVER": response.server_addr()
+        }
+        
+        if (server_stuff not in server_security):
+            server_security.append(server_stuff)
+        
         
         debug_obj = {
                 "URL" : response.url,
@@ -250,6 +259,11 @@ def scraper(url, debug):
         make_no_sense = open(f"analysis_output/unknown.json", "w")
         make_no_sense.write(json.dumps(cant_make_sense, indent=4, sort_keys=True))
         make_no_sense.close()
+        
+        # printing out all the servers this scraper contacted with
+        servers = open(f"analysis_output/servers_and_security.json", "w")
+        servers.write(json.dumps(server_security, indent=4, sort_keys=True))
+        servers.close()
 
         try:
             page.close()
