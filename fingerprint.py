@@ -25,13 +25,8 @@ class Fingerprint:
 
         # Metadata
         self.website: str = attrs.get('website', '??')
-        self.cats: List[int] = attrs.get('cats', [])
         self.description: Optional[str] = attrs.get('description')
-        self.icon: Optional[str] = attrs.get('icon')
         self.cpe: Optional[str] = attrs.get('cpe')
-        self.saas: Optional[bool] = attrs.get('saas')
-        self.oss: Optional[bool] = attrs.get('oss')
-        self.pricing: List[str] = self._prepare_list(attrs['princing']) if 'princing' in attrs else []
 
         # Implies
         self.implies: List[str] = self._prepare_list(attrs['implies']) if 'implies' in attrs else []
@@ -51,9 +46,9 @@ class Fingerprint:
         self.scriptSrc: List[Pattern] = self._prepare_pattern(attrs['scriptSrc']) if 'scriptSrc' in attrs else []
         self.scripts: List[Pattern] = self._prepare_pattern(attrs['scripts']) if 'scripts' in attrs else []
 
-        # self.cookies: Mapping[str, List[Pattern]] Not supported
-        # self.dns: Mapping[str, List[Pattern]] Not supported
-        # self.js: Mapping[str, List[Pattern]] Not supported
+        self.cookies: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['cookies'].items()}) if 'cookies' in attrs else {}
+        self.dns: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['dns'].items()}) if 'dns' in attrs else {} 
+        self.js: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['js'].items()}) if 'js' in attrs else {}
         # self.css: List[Pattern] Not supported (yet)
         # self.robots: List[Pattern] Not supported (yet)
         # self.xhr: List[Pattern] Not supported
@@ -66,7 +61,7 @@ class Fingerprint:
     def _prepare_pattern(cls, pattern: Union[str, List[str]]) -> List[Pattern]:
         """
         Parse the Regex Pattern in Wappalyzer format, since it's more condensed.
-        The logic here is basically the same 
+        The logic here is basically the same.
         """
         pattern_objects = []
         if isinstance(pattern, list):

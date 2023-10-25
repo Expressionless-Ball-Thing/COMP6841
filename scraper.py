@@ -1,11 +1,13 @@
 from io import TextIOWrapper
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Mapping
+from typing import Any, Callable, Dict, Iterable, List, Mapping, Optional, Set
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import re
 import json
 
+from page._common import IWebPage
+from page._bs4 import WebPage
 from fingerprint import Fingerprint, Pattern
 
 seen_url_requests = set()
@@ -33,7 +35,6 @@ class Technology:
 
 
 class SecScraper:
-
     def __init__(self, technologies:Dict[str, Any]):
         self.technologies: Mapping[str, Fingerprint] = {k:Fingerprint(name=k, **v) for k,v in technologies.items()}
         self.detected_technologies: Dict[str, Dict[str, Technology]] = {}
@@ -42,7 +43,6 @@ class SecScraper:
 
     @classmethod
     def compile(cls) -> 'SecScraper':
-
         """ 
             Get the technology folder, and load all the json in it.
         """
@@ -155,9 +155,6 @@ class SecScraper:
             self._sort_app_version(detected_tech)
 
     def _sort_app_version(self, detected_tech: Technology) -> None:
-        """
-        Sort version number (find the longest version number that *is supposed to* contains all shorter detected version numbers).
-        """
         if len(detected_tech.versions) >= 1:
             return
         detected_tech.versions = sorted(detected_tech.versions, key=self._cmp_to_key(self._sort_app_versions))
@@ -196,12 +193,6 @@ class SecScraper:
 
         return all_implied_technologies
 
-    def get_categories(self, tech_name:str) -> List[str]:
-        cat_nums = self.technologies[tech_name].cats if tech_name in self.technologies else []
-        cat_names = [self.categories[str(cat_num)].name
-                     for cat_num in cat_nums if str(cat_num) in self.categories]
-        return cat_names
-
     def get_versions(self, url:str, app_name:str) -> List[str]:
         try:
             return self.detected_technologies[url][app_name].versions
@@ -234,16 +225,6 @@ class SecScraper:
             versioned_apps[app_name] = {"versions": versions}
 
         return versioned_apps
-
-    def analyze_with_versions_and_categories(self, webpage:IWebPage) -> Dict[str, Dict[str, Any]]:
-        versioned_apps = self.analyze_with_versions(webpage)
-        versioned_and_categorised_apps = versioned_apps
-
-        for app_name in versioned_apps:
-            cat_names = self.get_categories(app_name)
-            versioned_and_categorised_apps[app_name]["categories"] = cat_names
-
-        return versioned_and_categorised_apps
 
     def _sort_app_versions(self, version_a: str, version_b: str) -> int:
         return len(version_a) - len(version_b)
@@ -544,8 +525,8 @@ def scraper(url, debug):
             pass
         
 def analyze(url:str, update:bool=False, useragent:str=None, timeout:int=10, verify:bool=True) -> Dict[str, Dict[str, Any]]:
-    # Create Wappalyzer
-    wappalyzer=Wappalyzer.latest(update=update)
+    # Create Sec-Scraper
+    secscraper: SecScraper = SecScraper.compile(update=update)
     # Create WebPage
     headers={}
     if useragent:
@@ -555,5 +536,5 @@ def analyze(url:str, update:bool=False, useragent:str=None, timeout:int=10, veri
         timeout=timeout, 
         verify=verify)
     # Analyze
-    results = wappalyzer.analyze_with_versions_and_categories(webpage)
+    results = secscraper.analyze_with_versions(webpage)
     return results
