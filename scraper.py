@@ -33,12 +33,10 @@ class Technology:
             total += v
         return total
 
-
 class SecScraper:
     def __init__(self, technologies:Dict[str, Any]):
         self.technologies: Mapping[str, Fingerprint] = {k:Fingerprint(name=k, **v) for k,v in technologies.items()}
         self.detected_technologies: Dict[str, Dict[str, Technology]] = {}
-
         self._confidence_regexp = re.compile(r"(.+)\\;confidence:(\d+)")
 
     @classmethod
@@ -51,7 +49,6 @@ class SecScraper:
             with open( f'technologies/{str(entry)}', 'r', encoding='utf-8') as file_content:
                 print(json.loads(file_content))
                 # {k:Fingerprint(name=k, **v) for k,v in json.loads(file_content).items()}
-
         
         return cls()
 
@@ -95,11 +92,11 @@ class SecScraper:
             if pattern.regex.search(webpage.html):
                 self._set_detected_app(webpage.url, tech_fingerprint, 'html', pattern, value=webpage.html)
                 has_tech = True
-        # analyze dom patterns
-        # css selector, list of css selectors, or dict from css selector to dict with some of keys:
-        #           - "exists": "": only check if the selector matches somthing, equivalent to the list form. 
-        #           - "text": "regex": check if the .innerText property of the element that matches the css selector matches the regex (with version extraction).
-        #           - "attributes": {dict from attr name to regex}: check if the attribute value of the element that matches the css selector matches the regex (with version extraction).
+            # analyze dom patterns
+            # css selector, list of css selectors, or dict from css selector to dict with some of keys:
+            #           - "exists": "": only check if the selector matches somthing, equivalent to the list form. 
+            #           - "text": "regex": check if the .innerText property of the element that matches the css selector matches the regex (with version extraction).
+            #           - "attributes": {dict from attr name to regex}: check if the attribute value of the element that matches the css selector matches the regex (with version extraction).
         for selector in tech_fingerprint.dom:
             for item in webpage.select(selector.selector):
                 if selector.exists:
@@ -369,10 +366,10 @@ def process_tags(scripts, meta_tags, link_tags):
                         if tech_name not in tech_found:
                                     
                             tech_found[tech_name] = {
-                                        "found in": [f"<script> tag with src attribute {script.attrs.get('src')} matched pattern {regex_version_pair["regex"]}"]
+                                        "found in": [f"<script> tag with src attribute {script.attrs.get('src')} matched pattern {regex_version_pair['regex']}"]
                                     }
                         else:
-                            tech_found[tech_name]["found in"].append(f"<script> tag with src attribute {script.attrs.get('src')} matched pattern {regex_version_pair["regex"]}") 
+                            tech_found[tech_name]["found in"].append(f"<script> tag with src attribute {script.attrs.get('src')} matched pattern {regex_version_pair['regex']}") 
     
         if "meta" in object:
             metas: dict = object["meta"]
@@ -527,14 +524,14 @@ def scraper(url, debug):
 def analyze(url:str, update:bool=False, useragent:str=None, timeout:int=10, verify:bool=True) -> Dict[str, Dict[str, Any]]:
     # Create Sec-Scraper
     secscraper: SecScraper = SecScraper.compile(update=update)
-    # Create WebPage
-    headers={}
-    if useragent:
-        headers['User-Agent'] = useragent
-    webpage=WebPage.new_from_url(url, 
-        headers=headers, 
-        timeout=timeout, 
-        verify=verify)
-    # Analyze
-    results = secscraper.analyze_with_versions(webpage)
-    return results
+    # # Create WebPage
+    # headers={}
+    # if useragent:
+    #     headers['User-Agent'] = useragent
+    # webpage=WebPage.new_from_url(url, 
+    #     headers=headers, 
+    #     timeout=timeout, 
+    #     verify=verify)
+    # # Analyze
+    # results = secscraper.analyze_with_versions(webpage)
+    # return results

@@ -7,11 +7,11 @@ class DomSelector:
     def __init__(self, selector: str, exists: Optional[bool] = None, text: Optional[List['Pattern']] = None, attributes: Optional[Mapping[str, List['Pattern']]] = None) -> None:
         self.selector: str = selector
         self.exists: bool = bool(exists)
-        self.text: Optional[List['Pattern']] = text
+        self.text: Optional[List[Pattern]] = text
         self.attributes: Optional[Mapping[str, List['Pattern']]] = attributes
 
 class Pattern:
-    def __init__(self, string:str, regex: Optional['re.Pattern']=None, version: Optional[str]=None, confidence: Optional[str] = None) -> None:
+    def __init__(self, string:str, regex: Optional[re.Pattern]=None, version: Optional[str]=None, confidence: Optional[str] = None) -> None:
         self.string: str = string
         self.regex: 're.Pattern' = regex or sre_compile.compile('', 0)
         self.version: Optional[str] = version

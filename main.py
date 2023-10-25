@@ -1,5 +1,5 @@
 import click
-from scraper import scraper
+import scraper
 
 @click.group()
 def cli():
@@ -11,7 +11,7 @@ def cli():
 @click.option('-d', '--debug', 'debug', default=False, is_flag=True, help="prints out all requets, reponses, etc")
 def analyze(url, debug):
     print(debug)
-    scraper(url, debug)
+    scraper.analyze()
 
 
 if __name__ == "__main__":
