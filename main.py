@@ -11,7 +11,7 @@ def cli():
 @click.option('-d', '--debug', 'debug', default=False, is_flag=True, help="prints out all requets, reponses, etc")
 def analyze(url, debug):
     print(debug)
-    scraper.analyze()
+    scraper.analyze(url)
 
 
 if __name__ == "__main__":

@@ -34,8 +34,8 @@ class Technology:
         return total
 
 class SecScraper:
-    def __init__(self, technologies:Dict[str, Any]):
-        self.technologies: Mapping[str, Fingerprint] = {k:Fingerprint(name=k, **v) for k,v in technologies.items()}
+    def __init__(self, technologies: List[Mapping[str, Fingerprint]]):
+        self.technologies: List[Mapping[str, Fingerprint]] = technologies
         self.detected_technologies: Dict[str, Dict[str, Technology]] = {}
         self._confidence_regexp = re.compile(r"(.+)\\;confidence:(\d+)")
 
@@ -44,13 +44,15 @@ class SecScraper:
         """ 
             Get the technology folder, and load all the json in it.
         """
-        techlist = []
+        techlist: List[Mapping[str, Fingerprint]] = []
         for entry in Path('technologies/').iterdir():
-            with open( f'technologies/{str(entry)}', 'r', encoding='utf-8') as file_content:
-                print(json.loads(file_content))
-                # {k:Fingerprint(name=k, **v) for k,v in json.loads(file_content).items()}
+            f = open(entry.as_posix(), encoding='utf-8')
+            obj = json.load(f)
+            techlist.append({k:Fingerprint(name=k, **v) for k,v in obj.items()})
+            f.close()
         
-        return cls()
+        return cls(techlist)
+        
 
     def _has_technology(self, tech_fingerprint: Fingerprint, webpage: IWebPage) -> bool:
         """
@@ -143,8 +145,7 @@ class SecScraper:
                     # Parse ternary operator
                     ternary = re.search(re.compile('\\\\' + str(index + 1) + '\\?([^:]+):(.*)$', re.I), version)
                     if ternary and len(ternary.groups()) == 2 and ternary.group(1) is not None and ternary.group(2) is not None:
-                        version = version.replace(ternary.group(0), ternary.group(1) if match != ''
-                                                  else ternary.group(2))
+                        version = version.replace(ternary.group(0), ternary.group(1) if match != '' else ternary.group(2))
                     # Replace back references
                     version = version.replace('\\' + str(index + 1), match)
                 if version != '' and version not in detected_tech.versions:
@@ -227,11 +228,6 @@ class SecScraper:
         return len(version_a) - len(version_b)
 
     def _cmp_to_key(self, mycmp: Callable[..., Any]):
-        """
-        Convert a cmp= function into a key= function
-        """
-
-        # https://docs.python.org/3/howto/sorting.html
         class CmpToKey:
             def __init__(self, obj, *args):
                 self.obj = obj
@@ -350,10 +346,10 @@ def potential_cves(tech_found):
     
     pass
 
-"""
-    Run the tech list through the scripts, meta_tags and links and see if anything match here.
-"""
 def process_tags(scripts, meta_tags, link_tags):
+    """
+        Run the tech list through the scripts, meta_tags and links and see if anything match here.
+    """
     
     hit_set = set()
     
@@ -523,7 +519,7 @@ def scraper(url, debug):
         
 def analyze(url:str, update:bool=False, useragent:str=None, timeout:int=10, verify:bool=True) -> Dict[str, Dict[str, Any]]:
     # Create Sec-Scraper
-    secscraper: SecScraper = SecScraper.compile(update=update)
+    secscraper: SecScraper = SecScraper.compile()
     # # Create WebPage
     # headers={}
     # if useragent:

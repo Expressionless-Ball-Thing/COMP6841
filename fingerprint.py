@@ -1,4 +1,3 @@
-from logging import Logger
 import re
 import sre_compile
 from typing import Any, Dict, List, Mapping, Optional, Union
@@ -77,7 +76,6 @@ class Fingerprint:
                         attrs['regex'] = re.compile(expression, re.I) # type: ignore
                     except re.error as err:
                         # Wappalyzer is a JavaScript application therefore some of the regex wont compile in Python.
-                        Logger.debug(f"Caught '{err}' compiling regex: {patterns}")
                         # regex that never matches: http://stackoverflow.com/a/1845097/413622
                         attrs['regex'] = re.compile(r'(?!x)x')
                 else:

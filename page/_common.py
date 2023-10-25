@@ -5,9 +5,9 @@ try:
 except ImportError:
     Protocol = object # type: ignore
 
-import aiohttp
-import requests
-from requests.structures import CaseInsensitiveDict
+# import aiohttp
+# import requests
+# from requests.structures import CaseInsensitiveDict
 
 def _raise_not_dict(obj:Any, name:str) -> None:
     try:
@@ -44,7 +44,7 @@ class BaseWebPage(IWebPage):
         _raise_not_dict(headers, "headers")
         self.url = url
         self.html = html
-        self.headers = CaseInsensitiveDict(headers)
+        # self.headers = CaseInsensitiveDict(headers)
         self.scripts: List[str] = []
         self.meta: Mapping[str, str] = {}
         self._parse_html()
@@ -52,27 +52,27 @@ class BaseWebPage(IWebPage):
     def _parse_html(self):
         raise NotImplementedError()
     
-    @classmethod
-    def new_from_url(cls, url: str, **kwargs:Any) -> IWebPage:
-        response = requests.get(url, **kwargs)
-        return cls.new_from_response(response)
+    # @classmethod
+    # def new_from_url(cls, url: str, **kwargs:Any) -> IWebPage:
+    #     response = requests.get(url, **kwargs)
+    #     return cls.new_from_response(response)
 
-    @classmethod
-    def new_from_response(cls, response:requests.Response) -> IWebPage:
-        return cls(response.url, html=response.text, headers=response.headers)
+    # @classmethod
+    # def new_from_response(cls, response:requests.Response) -> IWebPage:
+    #     return cls(response.url, html=response.text, headers=response.headers)
 
-    @classmethod
-    async def new_from_url_async(cls, url: str, verify: bool = True,
-                                 aiohttp_client_session: aiohttp.ClientSession = None, **kwargs:Any) -> IWebPage:
+    # @classmethod
+    # async def new_from_url_async(cls, url: str, verify: bool = True,
+    #                              aiohttp_client_session: aiohttp.ClientSession = None, **kwargs:Any) -> IWebPage:
 
-        if not aiohttp_client_session:
-            connector = aiohttp.TCPConnector(ssl=verify)
-            aiohttp_client_session = aiohttp.ClientSession(connector=connector)
+    #     if not aiohttp_client_session:
+    #         connector = aiohttp.TCPConnector(ssl=verify)
+    #         aiohttp_client_session = aiohttp.ClientSession(connector=connector)
 
-        async with aiohttp_client_session.get(url, **kwargs) as response:
-            return await cls.new_from_response_async(response)
+    #     async with aiohttp_client_session.get(url, **kwargs) as response:
+    #         return await cls.new_from_response_async(response)
 
-    @classmethod
-    async def new_from_response_async(cls, response:aiohttp.ClientResponse) -> IWebPage:
-        html = await response.text()
-        return cls(str(response.url), html=html, headers=response.headers)
+    # @classmethod
+    # async def new_from_response_async(cls, response:aiohttp.ClientResponse) -> IWebPage:
+    #     html = await response.text()
+    #     return cls(str(response.url), html=html, headers=response.headers)
