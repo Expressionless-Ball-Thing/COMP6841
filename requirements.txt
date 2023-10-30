@@ -1,0 +1,10 @@
+beautifulsoup4==4.12.2
+bs4==0.0.1
+click==8.1.7
+colorama==0.4.6
+greenlet==3.0.0
+lxml==4.9.3
+playwright==1.39.0
+pyee==11.0.1
+soupsieve==2.5
+typing_extensions==4.8.0

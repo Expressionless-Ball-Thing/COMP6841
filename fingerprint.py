@@ -48,9 +48,6 @@ class Fingerprint:
         self.cookies: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['cookies'].items()}) if 'cookies' in attrs else {}
         self.dns: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['dns'].items()}) if 'dns' in attrs else {} 
         self.js: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['js'].items()}) if 'js' in attrs else {}
-        # self.css: List[Pattern] Not supported (yet)
-        # self.robots: List[Pattern] Not supported (yet)
-        # self.xhr: List[Pattern] Not supported
     
     @classmethod
     def _prepare_list(cls, thing: Any) -> List[Any]:
