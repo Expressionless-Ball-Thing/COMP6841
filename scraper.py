@@ -223,32 +223,17 @@ class SecScraper:
             for tech in technologies:
                 try:
                     for imply in self.technologies[tech].implies:
-                        # If we have no doubts just add technology
                         if 'confidence' not in imply:
                             _implied_technologies.add(imply)
-
-                        # Case when we have "confidence" (some doubts)
-                        else:
-                            try:
-                                # Use more strict regexp (cause we have already checked the entry of "confidence")
-                                # Also, better way to compile regexp one time, instead of every time
-                                app_name, confidence = self._confidence_regexp.search(imply).groups()
-                                if int(confidence) >= 50:
-                                    _implied_technologies.add(app_name)
-                            except (ValueError, AttributeError):
-                                pass
                 except KeyError:
                     pass
             return _implied_technologies
-
         implied_technologies = __get_implied_technologies(detected_technologies)
         all_implied_technologies : Set[str] = set()
-
         # Descend recursively until we've found all implied technologies
         while not all_implied_technologies.issuperset(implied_technologies):
             all_implied_technologies.update(implied_technologies)
             implied_technologies = __get_implied_technologies(all_implied_technologies)
-
         return all_implied_technologies
 
     def analyze(self, webpage:WebPage) -> Set[str]:
