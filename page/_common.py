@@ -129,7 +129,7 @@ class SecScraper:
         
 
     def handle_request(self, request: Request):
-        print(">>", request.method, request.url)
+        # print(">>", request.method, request.url)
         all_headers = request.all_headers()
         self.seen_request_url
         has_tech = False
@@ -159,7 +159,7 @@ class SecScraper:
 
     def handle_response(self, response: Response):  
         
-        print("<<", response.status, response.url) 
+        # print("<<", response.status, response.url) 
         all_headers = response.all_headers()
         has_tech = False
         if (response.url not in self.seen_response_url):
