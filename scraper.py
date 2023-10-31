@@ -45,10 +45,10 @@ class SecScraper:
         html = open(f"analysis_output/html_full.html", "w", encoding='utf-8')
         html.write(webpage.parsed_html.prettify())
         html.close()
-        request_file: TextIOWrapper = open(f"analysis_output/request.txt", "w")
+        request_file: TextIOWrapper = open(f"analysis_output/debug_request.json", "w")
         request_file.write(json.dumps(self.requests, sort_keys=True, indent=4))
         request_file.close()
-        response_file: TextIOWrapper = open(f"analysis_output/response.txt", "w")
+        response_file: TextIOWrapper = open(f"analysis_output/debug_response.json", "w")
         response_file.write(json.dumps(self.responses, sort_keys=True, indent=4))
         response_file.close()
 
@@ -97,6 +97,14 @@ class SecScraper:
                             if pattern.regex.search(content):
                                 self._set_detected_app(technology, f'Header in response to {response.url} has key {name} and value {content}', pattern, value=content)
                                 has_tech = True
+            
+                # for name, patterns in list(technology.js.items()):
+                #     if name in response.text():
+                #         print("there's a hit")
+                #         for pattern in patterns:
+                #             if pattern.regex.search(name):
+                #                 self._set_detected_app(technology, f"Found in body of response to {response.url}, which has the key {name} and match regex {pattern}", pattern, value=response.text())
+                #                 has_tech = True
             
             server_stuff = {
                 "SECURITY": {key: value for key, value in response.security_details().items() if key not in ["validFrom" , "validTo"]},
@@ -278,7 +286,7 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
         page = browser.new_page()
         page.on("request", lambda request: secscraper.handle_request(request))
         page.on("response", lambda response: secscraper.handle_response(response))
-        page.goto(url, wait_until="domcontentloaded")
+        page.goto(url, wait_until="networkidle")
         
         webpage = WebPage(url,page=page)
         
