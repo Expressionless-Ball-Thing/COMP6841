@@ -10,7 +10,7 @@ import lxml
 from packaging import version
 from fingerprint import Fingerprint, Pattern
 from page._common import WebPage, Technology
-     
+import time 
 class SecScraper:
     def __init__(self, technologies: List[Mapping[str, Fingerprint]], debug: bool):
         self.technologies: Mapping[str, Fingerprint] = technologies
@@ -23,8 +23,8 @@ class SecScraper:
         self.server_security = []
         self.cant_make_sense = []
         
-        self.request_file: TextIOWrapper = open(f"analysis_output/request.txt", "w") if debug else None
-        self.response_file: TextIOWrapper = open(f"analysis_output/response.txt", "w") if debug else None
+        self.requests = []
+        self.responses = []
 
     @classmethod
     def compile(cls, debug:bool) -> 'SecScraper':
@@ -45,12 +45,15 @@ class SecScraper:
         html = open(f"analysis_output/html_full.html", "w", encoding='utf-8')
         html.write(webpage.parsed_html.prettify())
         html.close()
-        self.request_file.close()
-        self.response_file.close()
+        request_file: TextIOWrapper = open(f"analysis_output/request.txt", "w")
+        request_file.write(json.dumps(self.requests, sort_keys=True, indent=4))
+        request_file.close()
+        response_file: TextIOWrapper = open(f"analysis_output/response.txt", "w")
+        response_file.write(json.dumps(self.responses, sort_keys=True, indent=4))
+        response_file.close()
 
 
     def handle_request(self, request: Request):
-        # print(">>", request.method, request.url)
         all_headers = request.all_headers()
         self.seen_request_url
         has_tech = False
@@ -75,12 +78,12 @@ class SecScraper:
         if not has_tech:
             self.cant_make_sense.append(debug_obj)
         if (self.debug):
-            self.request_file.write(json.dumps(debug_obj, indent=4, sort_keys=True))
-            self.request_file.write("\n")
+            self.requests.append(debug_obj)
+            # self.request_file.write(json.dumps(debug_obj, indent=4, sort_keys=True))
+            # self.request_file.write("\n")
 
     def handle_response(self, response: Response):  
         
-        # print("<<", response.status, response.url) 
         all_headers = response.all_headers()
         has_tech = False
         if (response.url not in self.seen_response_url):
@@ -111,8 +114,7 @@ class SecScraper:
             if not has_tech:
                 self.cant_make_sense.append(debug_obj)     
             if self.debug:
-                self.response_file.write(json.dumps(debug_obj, indent=4, sort_keys=True))
-                self.response_file.write("\n")                         
+                self.responses.append(debug_obj)                 
 
     def _has_technology(self, tech_fingerprint: Fingerprint, webpage: WebPage) -> bool:
         """
@@ -348,6 +350,8 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
         site_links.close()
         
         try:
+            # page.remove_listener("request", lambda request: secscraper.handle_request(request))
+            # page.remove_listener("response", lambda response: secscraper.handle_response(response))
             page.close()
             browser.close()
         except:

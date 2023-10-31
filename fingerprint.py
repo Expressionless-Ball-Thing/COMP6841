@@ -45,9 +45,9 @@ class Fingerprint:
         self.scriptSrc: List[Pattern] = self._prepare_pattern(attrs['scriptSrc']) if 'scriptSrc' in attrs else []
         self.scripts: List[Pattern] = self._prepare_pattern(attrs['scripts']) if 'scripts' in attrs else []
 
-        self.cookies: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['cookies'].items()}) if 'cookies' in attrs else {}
-        self.dns: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['dns'].items()}) if 'dns' in attrs else {} 
-        self.js: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['js'].items()}) if 'js' in attrs else {}
+        # self.cookies: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['cookies'].items()}) if 'cookies' in attrs else {}
+        # self.dns: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['dns'].items()}) if 'dns' in attrs else {} 
+        self.js: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k:v for k,v in attrs['js'].items()}) if 'js' in attrs else {}
     
     @classmethod
     def _prepare_list(cls, thing: Any) -> List[Any]:
