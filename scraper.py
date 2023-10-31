@@ -1,7 +1,7 @@
 from io import TextIOWrapper
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Set
-from playwright.sync_api import sync_playwright, Request, Response
+from playwright.async_api import async_playwright, Request, Response, Playwright
 from bs4 import BeautifulSoup
 import re
 import json
@@ -53,9 +53,8 @@ class SecScraper:
         response_file.close()
 
 
-    def handle_request(self, request: Request):
-        all_headers = request.all_headers()
-        self.seen_request_url
+    async def handle_request(self, request: Request):
+        all_headers = await request.all_headers()
         has_tech = False
         
         if (request.url not in self.seen_request_url):
@@ -82,9 +81,9 @@ class SecScraper:
             # self.request_file.write(json.dumps(debug_obj, indent=4, sort_keys=True))
             # self.request_file.write("\n")
 
-    def handle_response(self, response: Response):  
+    async def handle_response(self, response: Response):  
         
-        all_headers = response.all_headers()
+        all_headers = await response.all_headers()
         has_tech = False
         if (response.url not in self.seen_response_url):
             self.seen_response_url.add(response.url)
@@ -107,17 +106,17 @@ class SecScraper:
                 #                 has_tech = True
             
             server_stuff = {
-                "SECURITY": {key: value for key, value in response.security_details().items() if key not in ["validFrom" , "validTo"]},
-                "SERVER": response.server_addr()
+                "SECURITY": {key: value for key, value in await response.security_details().items() if key not in ["validFrom" , "validTo"]},
+                "SERVER": await response.server_addr()
             }
             if (server_stuff not in self.server_security):
                 self.server_security.append(server_stuff)
             
             debug_obj = {
                     "URL" : response.url,
-                    "HEADERS": response.all_headers(),
-                    "SECURITY": response.security_details(),
-                    "SERVER": response.server_addr()
+                    "HEADERS": await response.all_headers(),
+                    "SECURITY": await response.security_details(),
+                    "SERVER": await response.server_addr()
                 }
             if not has_tech:
                 self.cant_make_sense.append(debug_obj)     
@@ -274,93 +273,89 @@ class SecScraper:
             
         return versioned_tech | implied_tech_dict        
         
-def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
+async def scrape(url:str, debug:bool, cve: bool, playwright: Playwright) -> Dict[str, Dict[str, Any]]:
     # Create SecScraper
     print("creating the scraper")
     secscraper: SecScraper = SecScraper.compile(debug)
     print("done")
     # Create WebPage        
-    with sync_playwright() as p:
-        chromium = p.chromium
-        browser = chromium.launch(headless=True)
-        page = browser.new_page()
-        page.on("request", lambda request: secscraper.handle_request(request))
-        page.on("response", lambda response: secscraper.handle_response(response))
-        page.goto(url, wait_until="networkidle")
-        
-        webpage = WebPage(url,page=page)
-        
-        # Analyze
-        secscraper.analyze(webpage)
+    chromium = playwright.chromium
+    browser = await chromium.launch(headless=True)
+    page = await browser.new_page()
+    page.on("request", lambda request: secscraper.handle_request(request))
+    page.on("response", lambda response: secscraper.handle_response(response))
+    await page.goto(url, wait_until="networkidle")
+    
+    webpage = WebPage(url,page=page)
+    
+    # Analyze
+    secscraper.analyze(webpage)
 
 
-        # printing the expected output.
-        outfile = open(f"analysis_output/analysis_results.json", "w")
-        outfile.write(json.dumps(secscraper.get_results(), indent=4, sort_keys=True))
-        outfile.close()
-        
-        # printing out the things the scraper can't make sense of
-        make_no_sense = open(f"analysis_output/unknown.json", "w")
-        make_no_sense.write(json.dumps(secscraper.cant_make_sense, indent=4, sort_keys=True))
-        make_no_sense.close()
-        
-        # printing out all the servers this scraper contacted with
-        servers = open(f"analysis_output/servers_and_security.json", "w")
-        servers.write(json.dumps(secscraper.server_security, indent=4, sort_keys=True))
-        servers.close()
+    # printing the expected output.
+    outfile = open(f"analysis_output/analysis_results.json", "w")
+    outfile.write(json.dumps(secscraper.get_results(), indent=4, sort_keys=True))
+    outfile.close()
+    
+    # printing out the things the scraper can't make sense of
+    make_no_sense = open(f"analysis_output/unknown.json", "w")
+    make_no_sense.write(json.dumps(secscraper.cant_make_sense, indent=4, sort_keys=True))
+    make_no_sense.close()
+    
+    # printing out all the servers this scraper contacted with
+    servers = open(f"analysis_output/servers_and_security.json", "w")
+    servers.write(json.dumps(secscraper.server_security, indent=4, sort_keys=True))
+    servers.close()
 
-        if (debug):
-            secscraper.debug_writeout(webpage)
+    if (debug):
+        secscraper.debug_writeout(webpage)
 
-        if (cve):
-            cve_list = {}
-            for tech_name, tech in secscraper.get_results().items():
-                response = requests.get(url="https://nvd.nist.gov/vuln/search/results", params={
-                    "form_type": "Basic",
-                    "results_type": "overview",
-                    "query": tech["cpe"].split("*")[0] if tech["cpe"] is not None else tech_name,
-                    "search_type": "all",
-                    "isCpeNameSearch": False
-                }, timeout=3)
-                soup = BeautifulSoup(response.text, 'lxml')
-                entries = [ {
-                    "name" : entry.find('a').text, 
-                    "description": entry.find('p').text, 
-                    "published":  entry.find('span', attrs={"data-testid" : True}).text, 
-                    "Severity": entry.find(id='cvss3-link').find('a').text if entry.find(id='cvss3-link') != None else "Not Available"}
-                           for entry in soup.find_all('tr', attrs={"data-testid" : True})]
-                if entries != []:
-                    cve_list[tech_name] = entries
-                
-            cves = open(f"analysis_output/potential_vulnerabilities.json", "w")
-            cves.write(json.dumps(cve_list, indent=4, sort_keys=True))
-            cves.close()
+    if (cve):
+        cve_list = {}
+        for tech_name, tech in secscraper.get_results().items():
+            response = requests.get(url="https://nvd.nist.gov/vuln/search/results", params={
+                "form_type": "Basic",
+                "results_type": "overview",
+                "query": tech["cpe"].split("*")[0] if tech["cpe"] is not None else tech_name,
+                "search_type": "all",
+                "isCpeNameSearch": False
+            }, timeout=3)
+            soup = BeautifulSoup(response.text, 'lxml')
+            entries = [ {
+                "name" : entry.find('a').text, 
+                "description": entry.find('p').text, 
+                "published":  entry.find('span', attrs={"data-testid" : True}).text, 
+                "Severity": entry.find(id='cvss3-link').find('a').text if entry.find(id='cvss3-link') != None else "Not Available"}
+                        for entry in soup.find_all('tr', attrs={"data-testid" : True})]
+            if entries != []:
+                cve_list[tech_name] = entries
+            
+        cves = open(f"analysis_output/potential_vulnerabilities.json", "w")
+        cves.write(json.dumps(cve_list, indent=4, sort_keys=True))
+        cves.close()
         
         
-        ### Links stuff
-        on_site = set()
-        internals =  set()
-        externals = set()        
-        for link in webpage.parsed_html.find_all('a'):
-            if bool(re.compile("^#.*").match(link.attrs.get('href'))):
-                on_site.add(link.attrs.get('href'))       
-            elif url in link.attrs.get('href') or bool(re.compile("^/.*").match(link.attrs.get('href'))):
-                internals.add(link.attrs.get('href'))     
-            else:
-                externals.add(link.attrs.get('href'))   
+    ### Links stuff
+    on_site = set()
+    internals =  set()
+    externals = set()        
+    for link in webpage.parsed_html.find_all('a'):
+        if bool(re.compile("^#.*").match(link.attrs.get('href'))):
+            on_site.add(link.attrs.get('href'))       
+        elif url in link.attrs.get('href') or bool(re.compile("^/.*").match(link.attrs.get('href'))):
+            internals.add(link.attrs.get('href'))     
+        else:
+            externals.add(link.attrs.get('href'))   
 
-        site_links = open(f"analysis_output/site_links.json", "w")
-        site_links.write(json.dumps({
-            "on-site permalink": list(on_site),
-            "internal link": list(internals),
-            "external link": list(externals)
-        }, indent=4, sort_keys=True))
-        site_links.close()
-        
-        try:
-            # page.remove_listener("request", lambda request: secscraper.handle_request(request))
-            # page.remove_listener("response", lambda response: secscraper.handle_response(response))
-            page.close()
-            browser.close()
-        except:
-            pass
+    site_links = open(f"analysis_output/site_links.json", "w")
+    site_links.write(json.dumps({
+        "on-site permalink": list(on_site),
+        "internal link": list(internals),
+        "external link": list(externals)
+    }, indent=4, sort_keys=True))
+    site_links.close()
+    
+    # page.remove_listener("request", lambda request: secscraper.handle_request(request))
+    # page.remove_listener("response", lambda response: secscraper.handle_response(response))
+    await page.close()
+    await browser.close()

@@ -1,17 +1,9 @@
-import abc
-from io import TextIOWrapper
-import json
-from pathlib import Path
-import re
-from typing import Callable, Dict, Iterator, Mapping, Optional, Set
-from fingerprint import Fingerprint, Pattern
-import lxml 
-from playwright.sync_api import Page
+from typing import Iterator, Mapping, Optional
+from playwright.async_api import Page
 from bs4 import BeautifulSoup, Tag as bs4_Tag
 from cached_property import cached_property
 from functools import cached_property
-from typing import Iterable, List, Mapping, Any
-from playwright.sync_api import Request, Response
+from typing import List, Mapping, Any
 
 try:
     from typing import Protocol
@@ -35,15 +27,15 @@ class Tag(Protocol):
     def inner_html(self) -> str:
         return self._soup.decode_contents()
 class WebPage(Protocol):
-    def __init__(self, url:str, page: Page):
+    async def __init__(self, url:str, page: Page):
         self.page = page
         self.url: str = url
         self.scripts: List[str] = []
         self.scriptSrc: List[str] = []
         self.meta: Mapping[str, str] = {}
         
-        self.html: str = self.page.content() 
-        self.parsed_html = BeautifulSoup(self.page.content(), 'lxml')
+        self.html: str = await self.page.content() 
+        self.parsed_html = BeautifulSoup(self.html, 'lxml')
         
         self._parse_html()
 
