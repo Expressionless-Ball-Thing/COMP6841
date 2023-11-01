@@ -277,7 +277,7 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
         page = browser.new_page()
         page.on("request", lambda request: secscraper.handle_request(request))
         page.on("response", lambda response: secscraper.handle_response(response))
-        page.goto(url, wait_until="networkidle")
+        page.goto(url)
         
         webpage = WebPage(url,page=page)
         
@@ -345,6 +345,8 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
     internals =  set()
     externals = set()        
     for link in webpage.parsed_html.find_all('a'):
+        if (link.attrs.get('href') is None):
+            continue
         if bool(re.compile("^#.*").match(link.attrs.get('href'))):
             on_site.add(link.attrs.get('href'))       
         elif url in link.attrs.get('href') or bool(re.compile("^/.*").match(link.attrs.get('href'))):
