@@ -1,0 +1,17 @@
+beautifulsoup4==4.12.2
+bs4==0.0.1
+cached-property==1.5.2
+certifi==2023.7.22
+charset-normalizer==3.3.1
+click==8.1.7
+colorama==0.4.6
+greenlet==3.0.0
+idna==3.4
+lxml==4.9.3
+packaging==23.2
+playwright==1.39.0
+pyee==11.0.1
+requests==2.31.0
+soupsieve==2.5
+typing_extensions==4.8.0
+urllib3==2.0.7
