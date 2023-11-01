@@ -15,12 +15,19 @@ The web scraper can also do the following:
 - Optionally reference found technologies with the NIST CVE database.
 - A debug mode that prints out every single network request and reponses made along with the full HTML of the site.
 
-### Planned Features
+### Planned Features and improvements
+
+Features:
 
 - Hunt for hidden input fields and links.
 - Web crawling functionalities.
 - Allow for the insertion of cookies and headers when scraping a website.
 - Fuzzer integration to detect hidden endpoints.
+
+Improvements:
+
+- Increase performance overall, perhaps taking advantage of the async API within Playwright.
+- Add in code to parse the body of a network response,
 
 ## Setting up
 
@@ -83,3 +90,22 @@ Options:
   -c, --cve       List out any potential CVE vulnerabilities from detected technologies.
   --help          Show this message and exit.
 ```
+
+## Relevant documentation for python packages used
+
+- [Requests](https://docs.python-requests.org/en/latest/index.html)
+- [Playwright](https://playwright.dev/python/docs/intro)
+- [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
+- [Click](https://click.palletsprojects.com/en/8.1.x/)
+
+## Main sources of inspration and reference texts
+
+[Wappalyzer](https://www.wappalyzer.com/)
+Sadly, Wappalyzer privated their github repo a few months ago as of writing, but there are forks of it
+[Wappalyzer Fork](https://github.com/tomnomnom/wappalyzer)
+This port of Wappalyzer to Golang helped with figuring out how to parse the Wappalyzer's JSON files into a usable format.
+[WappalyzerGo](https://github.com/projectdiscovery/wappalyzergo)
+
+Very useful book and website to learning about web scraping and the tools for it
+[Web Scraping With Python 2nd Edition](https://www.oreilly.com/library/view/web-scraping-with/9781491985564/)
+[Web Scraping FYI](https://webscraping.fyi)
