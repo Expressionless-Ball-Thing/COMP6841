@@ -6,12 +6,12 @@ from bs4 import BeautifulSoup
 import re
 import json
 import requests
-import lxml
 from packaging import version
 from fingerprint import Fingerprint, Pattern
 from page._common import WebPage, Technology
-import time 
 import os
+import click
+
 class SecScraper:
     def __init__(self, technologies: List[Mapping[str, Fingerprint]], debug: bool):
         self.technologies: Mapping[str, Fingerprint] = technologies
@@ -257,7 +257,13 @@ class SecScraper:
             implied_tech_dict[tech] = { "cpe": self.technologies[tech].cpe, "versions": [], "found_in": "implied from other tech found." }
             
         return versioned_tech | implied_tech_dict        
-        
+
+
+
+@click.command(help='Analyze the target URL')
+@click.option('-u', '--url', 'url', type=str, required=True, help="The url for the website you are going to scrape.")
+@click.option('-d', '--debug', 'debug', default=False, is_flag=True, help="Prints out all requests, reponses, etc.")
+@click.option('-c', '--cve', 'cve', default=False, is_flag=True, help="List out any potential CVE vulnerabilities from scraped technology.") 
 def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
     # Create SecScraper
     print("creating the scraper")
@@ -362,4 +368,6 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
     }, indent=4, sort_keys=True))
     site_links.close()
     print("done, you can now find the results over in the analysis_output folder.")
-    
+
+if __name__ == "__main__":
+    analyze()

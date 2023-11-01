@@ -75,21 +75,22 @@ playwright install
 Now you can start scraping by typing in:
 
 ```bash
-python .\main.py analyze -u <URL>
+python .\SecScraper.py -u <URL>
 ```
 
 ## Usage
 
-You can see the following help message if you type `python .\main.py analyze --help`
+You can see the following help message if you type `python .\SecScraper.py --help`
 
 ```bash
-Usage: main.py analyze [OPTIONS]
+Usage: SecScraper.py [OPTIONS]
+
   Analyze the target URL
 
 Options:
-  -u, --url TEXT  [required]
-  -d, --debug     prints out all requets, reponses, etc
-  -c, --cve       List out any potential CVE vulnerabilities from detected technologies.
+  -u, --url TEXT  The url for the website you are going to scrape.  [required]
+  -d, --debug     Prints out all requests, reponses, etc.
+  -c, --cve       List out any potential CVE vulnerabilities from scraped technology.
   --help          Show this message and exit.
 ```
 
@@ -113,6 +114,10 @@ Sadly, Wappalyzer privated their github repo a few months ago as of writing, but
 This port of Wappalyzer to Golang helped with figuring out how to parse the Wappalyzer's JSON files into a usable format.
 
 - [WappalyzerGo](https://github.com/projectdiscovery/wappalyzergo)
+
+This port of Wappalyzer to Python also help a great deal with figuring out how to structure the project
+
+- [python-Wappalyzer](https://github.com/chorsley/python-Wappalyzer)
 
 Very useful book and website to learning about web scraping and the tools for it
 
