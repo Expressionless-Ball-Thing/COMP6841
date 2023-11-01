@@ -8,14 +8,14 @@ Regardless, do use this tool with caution, do not attempt to use this tool on a 
 
 Given a website url as an input, this scraper will scrape the website's code and netowrk traffic and reference it with a database of web techonologies and integrations to determine what web technologies are used on the website, along with the versions, all neatly shown in neat JSON files.
 
-(This web scraper uses the web technologies database used by Wappalyzer, you can find links to it at the bottom of this document)
+(This web scraper uses the web technologies database used by Wappalyzer, which is more complete, but requires copying some of the logic used to parse the database into reusable technology identifiers, you can find links to it at the bottom of this document)
 
 The web scraper can also do the following:
 
-- Note down the IP addresses and ports of any server that the send sites sends requests to.
+- Note down the IP addresses and ports of any server that the site sends requests to.
 - Note down all the links on the site for site mapping purposes.
-- Optionally reference found technologies with the NIST CVE database.
-- A debug mode that prints out every single network request and reponses made along with the full HTML of the site.
+- Optionally reference found technologies with the NIST CVE database. (Be warned that there are potentially lots of false positives).
+- A debug mode that prints out every single network request and responses made along with the full HTML of the site.
 
 ### Planned Features and improvements
 
