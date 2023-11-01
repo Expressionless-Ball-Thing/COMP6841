@@ -70,7 +70,7 @@ class Fingerprint:
                 if index == 0:
                     attrs['string'] = expression
                     try:
-                        attrs['regex'] = re.compile(expression, re.I) # type: ignore
+                        attrs['regex'] = re.compile(expression, re.I)
                     except re.error as err:
                         # Wappalyzer is a JavaScript application therefore some of the regex wont compile in Python.
                         # regex that never matches: http://stackoverflow.com/a/1845097/413622

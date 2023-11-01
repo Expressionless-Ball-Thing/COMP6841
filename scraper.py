@@ -11,6 +11,7 @@ from packaging import version
 from fingerprint import Fingerprint, Pattern
 from page._common import WebPage, Technology
 import time 
+import os
 class SecScraper:
     def __init__(self, technologies: List[Mapping[str, Fingerprint]], debug: bool):
         self.technologies: Mapping[str, Fingerprint] = technologies
@@ -54,75 +55,73 @@ class SecScraper:
 
 
     def handle_request(self, request: Request):
-        all_headers = request.all_headers()
-        self.seen_request_url
-        has_tech = False
-        
-        if (request.url not in self.seen_request_url):
-            self.seen_request_url.add(request.url)        
+        try:
+            all_headers = request.all_headers()
+            self.seen_request_url
+            has_tech = False
             
-            for tech_name, technology in list(self.technologies.items()):
-                for name, patterns in list(technology.headers.items()):
-                    if name in all_headers:
-                        content = all_headers[name]
-                        for pattern in patterns:
-                            if pattern.regex.search(content):
-                                self._set_detected_app(technology, f'Header in {request.method} request to {request.url} has key {name} and value {content}', pattern, value=content)
-                                has_tech = True
-        
-        debug_obj = {
-            "METHOD": request.method,
-            "URL": request.url,
-            "HEADERS": all_headers
-        }
-        if not has_tech:
-            self.cant_make_sense.append(debug_obj)
-        if (self.debug):
-            self.requests.append(debug_obj)
-            # self.request_file.write(json.dumps(debug_obj, indent=4, sort_keys=True))
-            # self.request_file.write("\n")
+            if (request.url not in self.seen_request_url):
+                self.seen_request_url.add(request.url)        
+                
+                for tech_name, technology in list(self.technologies.items()):
+                    for name, patterns in list(technology.headers.items()):
+                        if name in all_headers:
+                            content = all_headers[name]
+                            for pattern in patterns:
+                                if pattern.regex.search(content):
+                                    self._set_detected_app(technology, f'Header in {request.method} request to {request.url} has key {name} and value {content}', pattern, value=content)
+                                    has_tech = True
+            
+            debug_obj = {
+                "METHOD": request.method,
+                "URL": request.url,
+                "HEADERS": all_headers
+            }
+            if not has_tech:
+                self.cant_make_sense.append(debug_obj)
+            if (self.debug):
+                self.requests.append(debug_obj)
+                # self.request_file.write(json.dumps(debug_obj, indent=4, sort_keys=True))
+                # self.request_file.write("\n")
+        except:
+            pass
 
     def handle_response(self, response: Response):  
         
-        all_headers = response.all_headers()
-        has_tech = False
-        if (response.url not in self.seen_response_url):
-            self.seen_response_url.add(response.url)
-            
-            for tech_name, technology in list(self.technologies.items()):
-                for name, patterns in list(technology.headers.items()):
-                    if name in all_headers:
-                        content = all_headers[name]
-                        for pattern in patterns:
-                            if pattern.regex.search(content):
-                                self._set_detected_app(technology, f'Header in response to {response.url} has key {name} and value {content}', pattern, value=content)
-                                has_tech = True
-            
-                # for name, patterns in list(technology.js.items()):
-                #     if name in response.text():
-                #         print("there's a hit")
-                #         for pattern in patterns:
-                #             if pattern.regex.search(name):
-                #                 self._set_detected_app(technology, f"Found in body of response to {response.url}, which has the key {name} and match regex {pattern}", pattern, value=response.text())
-                #                 has_tech = True
-            
-            server_stuff = {
-                "SECURITY": {key: value for key, value in response.security_details().items() if key not in ["validFrom" , "validTo"]},
-                "SERVER": response.server_addr()
-            }
-            if (server_stuff not in self.server_security):
-                self.server_security.append(server_stuff)
-            
-            debug_obj = {
-                    "URL" : response.url,
-                    "HEADERS": response.all_headers(),
-                    "SECURITY": response.security_details(),
-                    "SERVER": response.server_addr()
+        try:
+            all_headers = response.all_headers()
+            has_tech = False
+            if (response.url not in self.seen_response_url):
+                self.seen_response_url.add(response.url)
+                
+                for tech_name, technology in list(self.technologies.items()):
+                    for name, patterns in list(technology.headers.items()):
+                        if name in all_headers:
+                            content = all_headers[name]
+                            for pattern in patterns:
+                                if pattern.regex.search(content):
+                                    self._set_detected_app(technology, f'Header in response to {response.url} has key {name} and value {content}', pattern, value=content)
+                                    has_tech = True
+                
+                server_stuff = {
+                    "SECURITY": response.security_details() if response.security_details() is not None else {},
+                    "SERVER": response.server_addr() if response.server_addr() is not None else {}
                 }
-            if not has_tech:
-                self.cant_make_sense.append(debug_obj)     
-            if self.debug:
-                self.responses.append(debug_obj)                 
+                if (server_stuff not in self.server_security):
+                    self.server_security.append(server_stuff)
+                
+                debug_obj = {
+                        "URL" : response.url,
+                        "HEADERS": response.all_headers(),
+                        "SECURITY": response.security_details(),
+                        "SERVER": response.server_addr()
+                    }
+                if not has_tech:
+                    self.cant_make_sense.append(debug_obj)     
+                if self.debug:
+                    self.responses.append(debug_obj)      
+        except:
+            pass           
 
     def _has_technology(self, tech_fingerprint: Fingerprint, webpage: WebPage) -> bool:
         """
@@ -255,7 +254,7 @@ class SecScraper:
             }
         
         for tech in implied_tech:
-            implied_tech_dict[tech] = self.technologies[tech].cpe if self.technologies[tech].cpe is not None else ""
+            implied_tech_dict[tech] = { "cpe": self.technologies[tech].cpe, "versions": [], "found_in": "implied from other tech found." }
             
         return versioned_tech | implied_tech_dict        
         
@@ -263,7 +262,14 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
     # Create SecScraper
     print("creating the scraper")
     secscraper: SecScraper = SecScraper.compile(debug)
-    print("done")
+    print("done")    
+    
+    
+    # removing old files
+    for entry in Path('analysis_output/').iterdir():
+        if (entry.as_posix() != 'analysis_output/.gitkeep'):
+            os.remove(entry.as_posix())
+    
     # Create WebPage        
     with sync_playwright() as p:
         chromium = p.chromium
@@ -275,73 +281,6 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
         
         webpage = WebPage(url,page=page)
         
-        # Analyze
-        secscraper.analyze(webpage)
-
-
-        # printing the expected output.
-        outfile = open(f"analysis_output/analysis_results.json", "w")
-        outfile.write(json.dumps(secscraper.get_results(), indent=4, sort_keys=True))
-        outfile.close()
-        
-        # printing out the things the scraper can't make sense of
-        make_no_sense = open(f"analysis_output/unknown.json", "w")
-        make_no_sense.write(json.dumps(secscraper.cant_make_sense, indent=4, sort_keys=True))
-        make_no_sense.close()
-        
-        # printing out all the servers this scraper contacted with
-        servers = open(f"analysis_output/servers_and_security.json", "w")
-        servers.write(json.dumps(secscraper.server_security, indent=4, sort_keys=True))
-        servers.close()
-
-        if (debug):
-            secscraper.debug_writeout(webpage)
-
-        if (cve):
-            cve_list = {}
-            for tech_name, tech in secscraper.get_results().items():
-                response = requests.get(url="https://nvd.nist.gov/vuln/search/results", params={
-                    "form_type": "Basic",
-                    "results_type": "overview",
-                    "query": tech["cpe"].split("*")[0] if tech["cpe"] is not None else tech_name,
-                    "search_type": "all",
-                    "isCpeNameSearch": False
-                }, timeout=3)
-                soup = BeautifulSoup(response.text, 'lxml')
-                entries = [ {
-                    "name" : entry.find('a').text, 
-                    "description": entry.find('p').text, 
-                    "published":  entry.find('span', attrs={"data-testid" : True}).text, 
-                    "Severity": entry.find(id='cvss3-link').find('a').text if entry.find(id='cvss3-link') != None else "Not Available"}
-                           for entry in soup.find_all('tr', attrs={"data-testid" : True})]
-                if entries != []:
-                    cve_list[tech_name] = entries
-                
-            cves = open(f"analysis_output/potential_vulnerabilities.json", "w")
-            cves.write(json.dumps(cve_list, indent=4, sort_keys=True))
-            cves.close()
-        
-        
-        ### Links stuff
-        on_site = set()
-        internals =  set()
-        externals = set()        
-        for link in webpage.parsed_html.find_all('a'):
-            if bool(re.compile("^#.*").match(link.attrs.get('href'))):
-                on_site.add(link.attrs.get('href'))       
-            elif url in link.attrs.get('href') or bool(re.compile("^/.*").match(link.attrs.get('href'))):
-                internals.add(link.attrs.get('href'))     
-            else:
-                externals.add(link.attrs.get('href'))   
-
-        site_links = open(f"analysis_output/site_links.json", "w")
-        site_links.write(json.dumps({
-            "on-site permalink": list(on_site),
-            "internal link": list(internals),
-            "external link": list(externals)
-        }, indent=4, sort_keys=True))
-        site_links.close()
-        
         try:
             # page.remove_listener("request", lambda request: secscraper.handle_request(request))
             # page.remove_listener("response", lambda response: secscraper.handle_response(response))
@@ -349,3 +288,76 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
             browser.close()
         except:
             pass
+        
+    # Analyze
+    print("start analysing")
+    secscraper.analyze(webpage)
+    print("Analysing is over, now writing the output to files")
+
+
+    # printing the expected output.
+    outfile = open(f"analysis_output/analysis_results.json", "w")
+    outfile.write(json.dumps(secscraper.get_results(), indent=4, sort_keys=True))
+    outfile.close()
+    
+    # printing out the things the scraper can't make sense of
+    make_no_sense = open(f"analysis_output/unknown.json", "w")
+    make_no_sense.write(json.dumps(secscraper.cant_make_sense, indent=4, sort_keys=True))
+    make_no_sense.close()
+    
+    # printing out all the servers this scraper contacted with
+    servers = open(f"analysis_output/servers_and_security.json", "w")
+    servers.write(json.dumps(secscraper.server_security, indent=4, sort_keys=True))
+    servers.close()
+
+    if (debug):
+        secscraper.debug_writeout(webpage)
+
+    if (cve):
+        print("pinging for cves, this could take a while")
+        cve_list = {}
+        for tech_name, tech in secscraper.get_results().items():
+            response = requests.get(url="https://nvd.nist.gov/vuln/search/results", params={
+                "form_type": "Basic",
+                "results_type": "overview",
+                "query": tech["cpe"].split("*")[0] + (tech["versions"][-1] if tech["versions"] != [] else "") if tech["cpe"] is not None else tech_name,
+                "search_type": "all",
+                "isCpeNameSearch": False
+            }, timeout=10)
+            soup = BeautifulSoup(response.text, 'lxml')
+            entries = [ {
+                "name" : entry.find('a').text, 
+                "description": entry.find('p').text, 
+                "published":  entry.find('span', attrs={"data-testid" : True}).text, 
+                "Severity": entry.find(id='cvss3-link').find('a').text if entry.find(id='cvss3-link') != None else "Not Available"}
+                        for entry in soup.find_all('tr', attrs={"data-testid" : True})]
+            if entries != []:
+                cve_list[tech_name] = entries
+            
+        cves = open(f"analysis_output/potential_vulnerabilities.json", "w")
+        cves.write(json.dumps(cve_list, indent=4, sort_keys=True))
+        cves.close()
+    
+    
+    ### Links stuff
+    print("getting all links on the site")
+    on_site = set()
+    internals =  set()
+    externals = set()        
+    for link in webpage.parsed_html.find_all('a'):
+        if bool(re.compile("^#.*").match(link.attrs.get('href'))):
+            on_site.add(link.attrs.get('href'))       
+        elif url in link.attrs.get('href') or bool(re.compile("^/.*").match(link.attrs.get('href'))):
+            internals.add(link.attrs.get('href'))     
+        else:
+            externals.add(link.attrs.get('href'))   
+
+    site_links = open(f"analysis_output/site_links.json", "w")
+    site_links.write(json.dumps({
+        "on-site permalink": list(on_site),
+        "internal link": list(internals),
+        "external link": list(externals)
+    }, indent=4, sort_keys=True))
+    site_links.close()
+    print("done, you can now find the results over in the analysis_output folder.")
+    
