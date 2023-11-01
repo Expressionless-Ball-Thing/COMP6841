@@ -102,12 +102,19 @@ Options:
 
 ## Main sources of inspration and reference texts
 
-[Wappalyzer](https://www.wappalyzer.com/)
-Sadly, Wappalyzer privated their github repo a few months ago as of writing, but there are forks of it
-[Wappalyzer Fork](https://github.com/tomnomnom/wappalyzer)
+Project Inspiration
+
+- [Wappalyzer](https://www.wappalyzer.com/)
+
+Sadly, Wappalyzer privated their github repo a few months ago as of writing, but there are forks of it, this is also the source of the web technology database in this project.
+
+- [Wappalyzer Fork](https://github.com/tomnomnom/wappalyzer)
+
 This port of Wappalyzer to Golang helped with figuring out how to parse the Wappalyzer's JSON files into a usable format.
-[WappalyzerGo](https://github.com/projectdiscovery/wappalyzergo)
+
+- [WappalyzerGo](https://github.com/projectdiscovery/wappalyzergo)
 
 Very useful book and website to learning about web scraping and the tools for it
-[Web Scraping With Python 2nd Edition](https://www.oreilly.com/library/view/web-scraping-with/9781491985564/)
-[Web Scraping FYI](https://webscraping.fyi)
+
+- [Web Scraping With Python 2nd Edition](https://www.oreilly.com/library/view/web-scraping-with/9781491985564/)
+- [Web Scraping FYI](https://webscraping.fyi)
