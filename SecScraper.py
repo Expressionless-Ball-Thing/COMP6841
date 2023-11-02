@@ -268,7 +268,7 @@ def analyze(url:str, debug:bool, cve: bool) -> Dict[str, Dict[str, Any]]:
     # Create SecScraper
     print("creating the scraper")
     secscraper: SecScraper = SecScraper.compile(debug)
-    print("done")    
+    print("scraper created")    
     
     
     # removing old files
