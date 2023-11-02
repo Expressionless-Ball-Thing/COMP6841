@@ -1,6 +1,6 @@
 # Something Awesome: Web Scraper
 
-This is my COMP6841 Self-Selected Project (Something Awesome), it's a python web scraper and CLI tool for junior web devs and web security people to analyse websites and hunt for potential vulnerabilities, with the goal of helping people understand the uses of web scraping and to help understand the power of Recon and information within the realm of cybersecurity.
+This is my COMP6841 Self-Selected Project (Something Awesome), it's a python web scraper and CLI tool for junior web devs and web security engineers to analyse websites and hunt for potential vulnerabilities, with the goal of helping people understand the uses of web scraping and to help understand the power of Recon and information within the realm of cybersecurity.
 
 Regardless, do use this tool with caution, do not attempt to use this tool on a website that isn't public (e.g. behind a login), as it could land the user in potential legal troubles.
 
@@ -14,7 +14,7 @@ The web scraper can also do the following:
 
 - Note down the IP addresses and ports of any server that the site sends requests to.
 - Note down all the links on the site for site mapping purposes.
-- Optionally reference found technologies with the NIST CVE database. (Be warned that there are potentially lots of false positives).
+- Optionally reference found technologies with the NIST CVE database. (Be warned that there are potentially lots of false positives, because unless the tech has a known CPE, the NIST CVE database's search function just fuzzy searches).
 - A debug mode that prints out every single network request and responses made along with the full HTML of the site.
 
 ### Planned Features and improvements
@@ -93,6 +93,23 @@ Options:
   -c, --cve       List out any potential CVE vulnerabilities from scraped technology.
   --help          Show this message and exit.
 ```
+
+After the site is scraped and analyse, you will find the `analysis_output` folder populated with files, these include:
+
+- `analysis_results.json`, this contains the list of detected web tech, specific versions and cpe (if there's any), and what point to its existence on the website.
+- `servers_and_security.json`, this contains the SSL certificates, IP address and port numbers of every server the website makes requests to.
+- `site_links.json`, this contains all the links on the web page, and whether they are internal links or external links.
+- `unknown.json`, this contains all the network traffic headers that has no known technologies detected on it, for user's analysis.
+
+And optionally, if the debug flag `-d` was used:
+
+- `debug_request.json` and `debug_response.json`, Contains all the request and response headers from the network traffic of the website.
+- `html_full.html`, contains the full html doucment of the website.
+
+And if the cve flag `-c` was used:
+
+- `potential_vulnerabilites.json`, contains the list of potential cves from the NIST's NVD that the website might be vulnerable of based on the detected web technologies.
+(Please note that there are potentially lots of false positives)
 
 ## Relevant documentation for python packages used
 

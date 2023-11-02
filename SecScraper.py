@@ -8,7 +8,7 @@ import json
 import requests
 from packaging import version
 from fingerprint import Fingerprint, Pattern
-from page._common import WebPage, Technology
+from page import WebPage, Technology
 import os
 import click
 

@@ -3,22 +3,10 @@ from playwright.sync_api import Page
 from bs4 import BeautifulSoup, Tag as bs4_Tag
 from cached_property import cached_property
 from functools import cached_property
-from typing import List, Mapping, Any
-
-try:
-    from typing import Protocol
-except ImportError:
-    Protocol = object # type: ignore
-
-def _raise_not_dict(obj:Any, name:str) -> None:
-    try:
-        list(obj.keys())
-    except AttributeError: 
-        raise ValueError(f"{name} must be a dictionary-like object")
-class Tag(Protocol):
-
+from typing import List, Mapping
+class Tag():
+    
     def __init__(self, name: str, attributes: Mapping[str, str], soup: bs4_Tag) -> None:
-        _raise_not_dict(attributes, "attributes")
         self._soup: bs4_Tag = soup
         self.name: str = name
         self.attributes: Mapping[str, str] = attributes
@@ -26,7 +14,7 @@ class Tag(Protocol):
     @cached_property
     def inner_html(self) -> str:
         return self._soup.decode_contents()
-class WebPage(Protocol):
+class WebPage():
     def __init__(self, url:str, page: Page):
         self.page = page
         self.url: str = url
