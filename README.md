@@ -1,4 +1,4 @@
-# Something Awesome: Web Scraper
+# Something Awesome: Cybersecurity website Scraper and analyser
 
 This is my COMP6841 Self-Selected Project (Something Awesome), it's a python web scraper and CLI tool for junior web devs and web security engineers to analyse websites and hunt for potential vulnerabilities, with the goal of helping people understand the uses of web scraping and to help understand the power of Recon and information within the realm of cybersecurity.
 

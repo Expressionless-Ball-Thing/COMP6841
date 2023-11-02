@@ -29,14 +29,12 @@ class Fingerprint:
 
         # Implies
         self.implies: List[str] = self._prepare_list(attrs['implies']) if 'implies' in attrs else []
-        self.requires: List[str] = self._prepare_list(attrs['requires']) if 'requires' in attrs else []
         self.requiresCategory: List[str] = self._prepare_list(attrs['requiresCategory']) if 'requiresCategory' in attrs else []
-        self.excludes: List[str] = self._prepare_list(attrs['excludes']) if 'excludes' in attrs else []
 
         # Patterns
         self.dom: List[DomSelector] = self._prepare_dom(attrs['dom']) if 'dom' in attrs else []
         
-        self.headers: Mapping[str, List[Pattern]] = self._prepare_headers(attrs['headers']) if 'headers' in attrs else {}
+        self.headers: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k:v for k,v in attrs['headers'].items()}) if 'headers' in attrs else {}
         self.meta: Mapping[str, List[Pattern]] = self._prepare_meta(attrs['meta']) if 'meta' in attrs else {}
 
         self.html: List[Pattern] = self._prepare_pattern(attrs['html']) if 'html' in attrs else []
@@ -45,8 +43,6 @@ class Fingerprint:
         self.scriptSrc: List[Pattern] = self._prepare_pattern(attrs['scriptSrc']) if 'scriptSrc' in attrs else []
         self.scripts: List[Pattern] = self._prepare_pattern(attrs['scripts']) if 'scripts' in attrs else []
 
-        # self.cookies: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['cookies'].items()}) if 'cookies' in attrs else {}
-        # self.dns: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k.lower():v for k,v in attrs['dns'].items()}) if 'dns' in attrs else {} 
         self.js: Mapping[str, List[Pattern]] = self._prepare_pattern_dict({k:v for k,v in attrs['js'].items()}) if 'js' in attrs else {}
     
     @classmethod
@@ -94,10 +90,6 @@ class Fingerprint:
         # Ensure dict.
         if not isinstance(thing, dict):
             thing = {'generator': thing}
-        return cls._prepare_pattern_dict({k.lower():v for k,v in thing.items()})
-
-    @classmethod
-    def _prepare_headers(cls,  thing: Dict[str, Union[str, List[str]]]) -> Mapping[str, List[Pattern]]:
         return cls._prepare_pattern_dict({k.lower():v for k,v in thing.items()})
     
     @classmethod
